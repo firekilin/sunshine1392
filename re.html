@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="zh-TW">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/rwd.css">
+    <script src="assets/js/jquery-3.4.0.min.js"></script>
+    <script src="assets/js/menu.js"></script>
+</head>
+
+<body>
+    <!--登入頁面開始-->
+    <div class="login_window">
+        <div class="login_close" onclick="loginclose()">X</div>
+        <img src="assets/img/umbrella.png" alt="" class="login_bg" /> 會員登入
+		<!--登入表單-->
+        <form class="loginform" action="送出目的地" method="資料傳送方式">
+            
+            <input type="text" placeholder="帳號" required>
+            <input type="password" placeholder="密碼" required>
+            <input type="submit" value="登入">
+            <form>
+                <a class="signup" href="">註冊新帳號</a>
+    </div>
+    <!--登入頁面結束-->
+    <div class="body">
+        <!--頁首開始-->
+        <header class="header">
+            <a href="index.html"><img class="logo" src="assets/img/LOGO.png" alt="天晴雨傘" /></a>
+            <nav class="menu">
+                <ul>
+                    <li><a class="linkto">About us</a>
+                    </li>
+                    <li><a class="linkto">熱門商品</a>
+                    </li>
+                    <li><a class="linkto">線上購物</a>
+                    </li>
+                    <li><a class="linkto">會員專區</a>
+                    </li>
+                    <li><a class="linkto">訂單查詢</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="login_button"><img class="login_icon" alt="" src="assets/img/member1.png" />
+                <!--這個以JSP換圖片-->
+                <div class="login_content" onclick="loginopen()">會員登入</div>
+            </div>
+            <img class="shopping_car" alt="" src="assets/img/shoppingcart1.png" />
+            <!--這個以JSP換圖片-->
+        </header>
+        <!--頁首結束-->
+		
+    </div>
+    <!--頁尾在此-->
+    <div class="footer">
+        <img alt="" class="footer_img" src="assets/img/umbrella.png" />
+        <div class="findus">
+            <a class="findus_link" href="">FB線上客服</a>/
+            <a class="findus_link" href="">Line線上客服(ID：@cute2754720)</a>
+            <br><a class="findus_link" href="">03-4204987</a>
+            <br><a class="findus_link" href="">E-mail：kittylu327@gmail.com</a>
+        </div>
+        <div class="footer_menu">
+            <a class="footer_link" href="">About us</a>
+            <a class="footer_link" href="">會員專區</a>
+            <a class="footer_link" href="">熱門商品</a>
+            <a class="footer_link" href="">訂單查詢</a>
+            <a class="footer_link" href="">線上購物</a>
+            <a class="footer_link" href="">常見QA</a>
+        </div>
+        <img alt="" class="footer_QRcode" src="assets/img/umbrella.png" />
+    </div>
+    <div class="top" onclick="$('html, body').animate({ scrollTop:0 }, 800)">
+
+        <img class="top_img" onclick="$('body').animate( { scrollTop:0 }, 800)" src="assets/img/arrow.png" alt="" />
+    </div>
+</body>
+
+
+
+</html>
