@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<html lang="zh-TW">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/rwd_index.css">
+    <script src="assets/js/jquery-3.4.0.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/menu.js"></script>
+</head>
+
+<body>
+    <div class="login_window">
+        <div class="login_close" onclick="loginclose()">X</div>
+        <img src="assets/img/umbrella.png" alt="" class="login_bg" /> 會員登入
+        <form class="loginform" action="送出目的地" method="資料傳送方式">
+            <!--表單-->
+            <input type="text" placeholder="帳號" required>
+            <input type="password" placeholder="密碼" required>
+            <input type="submit" value="登入">
+            <form>
+                <a class="signup" href="">註冊新帳號</a>
+    </div>
+    <div class="body">
+        <header class="header">
+            <a href="index.html"><img class="logo" src="assets/img/LOGO.png" alt="天晴雨傘" /></a>
+            <nav class="menu">
+                <ul>
+                    <li><a class="linkto">About us</a>
+                    </li>
+                    <li><a class="linkto">熱門商品</a>
+                    </li>
+                    <li><a class="linkto">線上購物</a>
+                    </li>
+                    <li><a class="linkto">會員專區</a>
+                    </li>
+                    <li><a class="linkto">訂單查詢</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="login_button"><img class="login_icon" alt="" src="assets/img/member1.png" />
+                <!--這個以JSP換圖片-->
+                <div class="login_content" onclick="loginopen()">會員登入</div>
+            </div>
+            <img class="shopping_car" alt="" src="assets/img/shoppingcart1.png" />
+            <!--這個以JSP換圖片-->
+        </header>
+        <div class="slid_img">
+            <!--輪轉圖-->
+            <div class="slidimg_box">
+                <img class="slidimgs showing" alt="" src="assets/img/add1.jpg" />
+                <img class="slidimgs" alt="" src="assets/img/add1.jpg" />
+                <img class="slidimgs" alt="" src="assets/img/add1.jpg" />
+            </div>
+            <div class="botton">
+                <div class="botton_left" onclick="slidleft()">▲</div>
+                <div class="botton_right" onclick="slidright()">▲</div>
+            </div>
+
+        </div>
+        <div class="main">
+            <div class="main_hot">
+                <div class="hot_value"><img class="hotimg" alt="" src="assets/img/hot.png"></div>
+                <div class="hot">
+                    <div class="product_botton">
+                        <div class="products_button_l" onclick="product_left('hot')">▲</div>
+                        <div class="products_button_r" onclick="product_right('hot')">▲</div>
+                    </div>
+
+                    <div class="products_box">
+                        <div class="one_product">
+                            <img class="product" alt="" src="assets/img/cat1.jpg" />
+                            <div class="product_content">
+                                90cm-QQ橘貓咪晴雨傘<br><div class="money">$590</div>
+                            </div>
+                        </div>
+                        <div class="one_product">
+                            <img class="product" alt="" src="assets/img/cat1.jpg" />
+                            <div class="product_content">
+                                90cm-QQ橘貓咪晴雨傘<br><div class="money">$590</div>
+                            </div>
+                        </div>
+                        <div class="one_product">
+                            <img class="product" alt="" src="assets/img/cat1.jpg" />
+                            <div class="product_content">
+                                90cm-QQ橘貓咪晴雨傘<br><div class="money">$590</div>
+                            </div>
+                        </div>
+                        <div class="one_product">
+                            <img class="product" alt="" src="assets/img/cat1.jpg" />
+                            <div class="product_content">
+                                90cm-QQ橘貓咪晴雨傘<br><div class="money">$590</div>
+                            </div>
+                        </div>
+                        <div class="one_product">
+                            <img class="product" alt="" src="assets/img/cat1.jpg" />
+                            <div class="product_content">
+                                90cm-QQ橘貓咪晴雨傘<br><div class="money">$590</div>
+                            </div>
+                        </div>
+                        <div class="one_product">
+                            <img class="product" alt="" src="assets/img/cat1.jpg" />
+                            <div class="product_content">
+                                90cm-QQ橘貓咪晴雨傘<br><div class="money">$590</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_new">
+                <div class="new_value"><img class="newimg" alt="" src="assets/img/new.png"></div>
+                <div class="new">
+                    <div class="product_botton">
+                        <div class="products_button_l" onclick="product_left('new')">▲</div>
+                        <div class="products_button_r" onclick="product_right('new')">▲</div>
+                    </div>
+
+                    <div class="products_box">
+                        <div class="one_product">
+                            <img class="product" alt="" src="assets/img/cat1.jpg" />
+                            <div class="product_content">
+                                90cm-QQ橘貓咪晴雨傘<br><div class="money">$590</div>
+                            </div>
+                        </div>
+                        <div class="one_product">
+                            <img class="product" alt="" src="assets/img/cat1.jpg" />
+                            <div class="product_content">
+                                90cm-QQ橘貓咪晴雨傘<br><div class="money">$590</div>
+                            </div>
+                        </div>
+                        <div class="one_product">
+                            <img class="product" alt="" src="assets/img/cat1.jpg" />
+                            <div class="product_content">
+                                90cm-QQ橘貓咪晴雨傘<br><div class="money">$590</div>
+                            </div>
+                        </div>
+                        <div class="one_product">
+                            <img class="product" alt="" src="assets/img/cat1.jpg" />
+                            <div class="product_content">
+                                90cm-QQ橘貓咪晴雨傘<br><div class="money">$590</div>
+                            </div>
+                        </div>
+                        <div class="one_product">
+                            <img class="product" alt="" src="assets/img/cat1.jpg" />
+                            <div class="product_content">
+                                90cm-QQ橘貓咪晴雨傘<br><div class="money">$590</div>
+                            </div>
+                        </div>
+                        <div class="one_product">
+                            <img class="product" alt="" src="assets/img/cat1.jpg" />
+                            <div class="product_content">
+                                90cm-QQ橘貓咪晴雨傘<br><div class="money">$590</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <img alt="" class="footer_img" src="assets/img/umbrella.png" />
+        <div class="findus">
+            <a class="findus_link" href="">FB線上客服</a>/
+            <a class="findus_link" href="">Line線上客服(ID：@cute2754720)</a>
+            <br><a class="findus_link" href="">03-4204987</a>
+            <br><a class="findus_link" href="">E-mail：kittylu327@gmail.com</a>
+        </div>
+        <div class="footer_menu">
+            <a class="footer_link" href="">About us</a>
+            <a class="footer_link" href="">會員專區</a>
+            <a class="footer_link" href="">熱門商品</a>
+            <a class="footer_link" href="">訂單查詢</a>
+            <a class="footer_link" href="">線上購物</a>
+            <a class="footer_link" href="">常見QA</a>
+        </div>
+        <img alt="" class="footer_QRcode" src="assets/img/umbrella.png" />
+    </div>
+    <div class="top" onclick="$('html, body').animate({ scrollTop:0 }, 800)">
+
+        <img class="top_img" onclick="$('body').animate( { scrollTop:0 }, 800)" src="assets/img/arrow.png" alt="" />
+    </div>
+</body>
+
+
+
+</html>

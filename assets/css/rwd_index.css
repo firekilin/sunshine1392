@@ -1,0 +1,520 @@
+body {
+    margin: 0px;
+    font-family: "微軟正黑體";
+}
+
+.header {
+    position: relative;
+    margin-top: 30px;
+    height: 170px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.logo {
+    position: relative;
+    top: 10%;
+    display: block;
+    margin-left: calc(50% - 130px);
+    width: auto;
+    height: 90px;
+}
+
+.menu {
+    margin-top: 30px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    border-top: 1px #b1e0ef solid;
+}
+
+.menu li {
+    display: inline-block;
+    width: calc(95% / 5);
+    height: 100%;
+}
+
+.login_button {
+    position: absolute;
+    color: white;
+    right: 0px;
+    top: 0px;
+    width: 15%;
+    height: 35px;
+    overflow: hidden;
+    background: #53a7c3;
+    border-radius: 20px;
+    box-shadow: #56a5bf 0px 2px 5px;
+    cursor: pointer;
+}
+
+.login_icon {
+    position: absolute;
+    left: 10%;
+    height: 80%;
+    display: inline-block;
+    top: 10%;
+}
+
+.login_content {
+    position: absolute;
+    display: block;
+    width: 80%;
+    left: 35%;
+    height: 50%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+
+.menu ul {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.linkto {
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 40px;
+    height: 50px;
+    display: block;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #187898;
+    font-weight: bolder;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.linkto:hover {
+    color: #76326f;
+}
+
+.shopping_car {
+    position: absolute;
+    height: 60px;
+    top: 35%;
+    right: 30px;
+}
+
+.top {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 0px;
+    height: 0px;
+    border-right: 0px solid #ffffff00;
+    border-left: 100px solid #ffffff00;
+    border-bottom: 100px solid #B1E0EF;
+    color: white;
+    display: inline-block;
+}
+
+/*輪轉圖*/
+
+.slid_img {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.slidimgs.showing {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    transition: all 0.6s ease;
+    display: block;
+}
+
+.slidimgs {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    left: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.slidimg_box {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.slidimgs.left {
+    position: absolute;
+    width: 100%;
+    left: -100%;
+    top: 0px;
+    display: block;
+    transition: all 0.6s ease;
+}
+
+.slidimgs.right {
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    top: 0px;
+    display: block;
+    transition: all 0.6s ease;
+}
+
+/*按鈕*/
+
+.botton {
+    position: absolute;
+    color: white;
+    top: 50%;
+    width: 100%;
+}
+
+.botton_left {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    line-height: 0px;
+    left: 10px;
+    z-index: 2;
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+
+.botton_right {
+    position: absolute;
+    right: 10px;
+    font-size: 30px;
+    line-height: 0px;
+    z-index: 2;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+/*主商品*/
+
+.main_hot {
+    margin-top: 80px;
+}
+
+.main_new {
+    margin-top: 80px;
+}
+
+.hot_value {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.new_value {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.hotimg {
+    width: 10%;
+}
+
+.newimg {
+    width: 10%;
+}
+
+.products_box {
+    width: calc(100%/6*5);
+    margin-top: 20px;
+    height: 100%;
+    overflow: hidden;
+    margin-left: calc(50% - 100%/6*5/2);
+}
+
+.one_product {
+    position: relative;
+    width: calc(89%/5);
+    height: 100%;
+    display: inline-block;
+    margin-left: 1.5%;
+    transition: all 0.6s ease;
+    top:0px
+}
+
+.product {
+    display: block;
+    width: 100%;
+}
+
+.products_button_l {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    left: 12.5px;
+    transform: rotate(-90deg)scale(2);
+    z-index: 5;
+    line-height: 25px;
+    text-align: center;
+    background: #7cc3dc;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+.products_button_l:hover {
+    color: #348DAA;
+    line-height: 22.5px;
+    left: 12.5px;
+    background: #b1e0ef;
+}
+
+.products_button_r {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    right: 12.5px;
+    transform: rotate(90deg)scale(2);
+    z-index: 5;
+    line-height: 25px;
+    text-align: center;
+    background: #7cc3dc;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+.products_button_r:hover {
+    color: #348DAA;
+    line-height: 22.5px;
+    right: 12.5px;
+    background: #b1e0ef;
+}
+
+.product_botton {
+    position: absolute;
+    top: calc(50% - 25px);
+    width: 100%;
+}
+
+.hot {
+    position: relative;
+    height: 240px;
+    overflow: hidden;
+}
+.new {
+    position: relative;
+    height: 240px;
+    overflow: hidden;
+}
+.product_content {
+    text-align: center;
+    color: #187898;
+}
+
+.money {
+    color: #f46270;
+    margin-top: 10px;
+}
+/*頁尾*/
+
+img.top_img {
+    position: absolute;
+    margin-left: -40px;
+    bottom: -90px;
+    height: 30px;
+    width: 30px;
+    z-index: 5;
+}
+
+.footer {
+    position: relative;
+    background: #7bc3db;
+    overflow: hidden;
+    height: 150px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer_img {
+    position: absolute;
+    height: 80%;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+.findus {
+    position: absolute;
+    left: 1%;
+    margin-top: 45px;
+    height: 60px;
+    line-height: 20px;
+}
+
+img.footer_QRcode {
+    position: absolute;
+    height: 100px;
+    right: 100px;
+    margin-top: 25px;
+}
+
+.footer_menu {
+    position: absolute;
+    right: 200px;
+    width: 20%;
+    margin-top: 25px;
+    height: 100px;
+}
+
+.findus_link {
+    color: #1f7189;
+    text-decoration: none;
+}
+
+.footer_link {
+    position: relative;
+    display: inline-block;
+    width: calc(95%/2);
+    line-height: 30px;
+    color: #1f7189;
+    text-decoration: none;
+}
+
+.footer_link:hover {
+    text-decoration: underline;
+}
+
+.findus_link:hover {
+    text-decoration: underline;
+}
+
+/*登入畫面*/
+
+.login_window {
+    position: fixed;
+    right: 20%;
+    top: 50px;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.6s ease;
+}
+
+.login_bg {
+    left: 0px;
+    width: 30%;
+    max-width: 250px;
+    margin-top: 150px;
+    margin-left: 60%;
+    position: absolute;
+    filter: brightness(0.6)contrast(3);
+    z-index: -1;
+}
+
+.loginform input {
+    display: block;
+    margin-left: 25%;
+    margin-top: 20px;
+    width: 50%;
+    line-height: 50px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+    background: #ffffff82;
+    font-size: 20px;
+    color: #187898;
+    font-family: "微軟正黑體";
+}
+
+input[type="submit"] {
+    width: 20%;
+    margin-top: 25px;
+    margin-left: 40%;
+    text-align: center;
+    background: #7cc3db;
+    color: #187898;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.signup {
+    display: block;
+    text-decoration: none;
+    width: 16%;
+    height: 50px;
+    margin-left: 55%;
+    margin-top: 35px;
+    font-size: 20px;
+    line-height: 50px;
+    background: #DAF1F7;
+    border-radius: 25px;
+    color: #187898;
+}
+
+.login_close {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background: #7cc3db;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+}
+
+.loginform input::-webkit-input-placeholder {
+    color: #187898;
+}
+
+/*RWD*/
+
+@media only screen and (min-width: 1200px) {
+    .body {
+        position: relative;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 70%;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 767px)and (max-width:1200px) {
+    .body {
+        position: relative;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 88%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .body {
+        position: relative;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .product {
+        display: block;
+        width: 80%;
+    }
+}
