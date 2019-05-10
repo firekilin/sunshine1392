@@ -43,17 +43,26 @@ $('.shopping_car').css( {
     'height': '30px',
     'width': '40px',
 });
-$('.slid_img').css( {
-    'margin-top':(getmenu2+70)+'px',
+$('.main').css( {
+    'margin-top':(getmenu2+170)+'px',
+});
+$('.logo_link').css( {
+    'position':' absolute',
+    'display':' block',
+    'left':' 5%',
+    'width':' 116px',
+    'height':' auto',
+    'z-index':' 5',
 });
 		
 	}else{
-		$('.slid_img')[0].removeAttribute('style');
+		$('.main')[0].removeAttribute('style');
 		$('.header')[0].removeAttribute('style');
 		$('.logo')[0].removeAttribute('style');
 		$('.menu')[0].removeAttribute('style');
-		$('.login_button')[0].removeAttribute('style')
+		$('.login_button')[0].removeAttribute('style');
 		$('.shopping_car')[0].removeAttribute('style');
+		$('.logo_link')[0].removeAttribute('style');
 	}
 	
 });
