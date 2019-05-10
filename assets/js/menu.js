@@ -57,3 +57,28 @@ $('.slid_img').css( {
 	}
 	
 });
+
+/*登入頁面*/
+
+function loginopen(){
+	$('.login_window').css( {
+    'position': 'fixed',
+    'padding-top': '40px',
+    'width': '720px',
+    'height': '450px',
+    'font-size': '30px',
+    'font-weight': 'bolder',
+    'color': '#187898',
+    'background': '#b1e0ef',
+    'border-radius': '100px',
+    'right': 'calc(50% - 360px)',
+    'z-index': '5',
+    'text-align': 'center',
+	'overflow': 'visible',
+	'top': '200px',
+});
+}
+
+function loginclose(){
+	$('.login_window')[0].removeAttribute('style');
+}

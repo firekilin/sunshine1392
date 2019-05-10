@@ -1,0 +1,217 @@
+
+/*輪轉圖*/
+
+.slid_img {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.slidimgs.showing {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    transition: all 0.6s ease;
+    display: block;
+}
+
+.slidimgs {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    left: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.slidimg_box {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.slidimgs.left {
+    position: absolute;
+    width: 100%;
+    left: -100%;
+    top: 0px;
+    display: block;
+    transition: all 0.6s ease;
+}
+
+.slidimgs.right {
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    top: 0px;
+    display: block;
+    transition: all 0.6s ease;
+}
+
+/*按鈕*/
+
+.botton {
+    position: absolute;
+    color: white;
+    top: 50%;
+    width: 100%;
+}
+
+.botton_left {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    line-height: 0px;
+    left: 10px;
+    z-index: 2;
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+
+.botton_right {
+    position: absolute;
+    right: 10px;
+    font-size: 30px;
+    line-height: 0px;
+    z-index: 2;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+/*主商品*/
+
+.main_hot {
+    margin-top: 80px;
+}
+
+.main_new {
+    margin-top: 80px;
+}
+
+.hot_value {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.new_value {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.hotimg {
+    width: 10%;
+}
+
+.newimg {
+    width: 10%;
+}
+
+.products_box {
+    width: calc(100%/6*5);
+    margin-top: 20px;
+    height: 100%;
+    overflow: hidden;
+    margin-left: calc(50% - 100%/6*5/2);
+}
+
+.one_product {
+    position: relative;
+    width: calc(89%/5);
+    height: 100%;
+    display: inline-block;
+    margin-left: 1.5%;
+    transition: all 0.6s ease;
+    top:0px
+}
+
+.product {
+    display: block;
+    width: 100%;
+}
+
+.products_button_l {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    left: 12.5px;
+    transform: rotate(-90deg)scale(2);
+    z-index: 5;
+    line-height: 25px;
+    text-align: center;
+    background: #7cc3dc;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+.products_button_l:hover {
+    color: #348DAA;
+    line-height: 22.5px;
+    left: 12.5px;
+    background: #b1e0ef;
+}
+
+.products_button_r {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    right: 12.5px;
+    transform: rotate(90deg)scale(2);
+    z-index: 5;
+    line-height: 25px;
+    text-align: center;
+    background: #7cc3dc;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+.products_button_r:hover {
+    color: #348DAA;
+    line-height: 22.5px;
+    right: 12.5px;
+    background: #b1e0ef;
+}
+
+.product_botton {
+    position: absolute;
+    top: calc(50% - 25px);
+    width: 100%;
+}
+
+.hot {
+    position: relative;
+    height: 240px;
+    overflow: hidden;
+}
+.new {
+    position: relative;
+    height: 240px;
+    overflow: hidden;
+}
+.product_content {
+    text-align: center;
+    color: #187898;
+}
+
+.money {
+    color: #f46270;
+    margin-top: 10px;
+}
+
+
+/*RWD*/
+
+
+@media only screen and (min-width: 1500px) {
+    .product {
+        display: block;
+        width: 80%;
+    }
+}
