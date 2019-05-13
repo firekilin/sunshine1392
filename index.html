@@ -2,6 +2,8 @@
 <html lang="zh-TW">
 
 <head>
+	<title>天晴sunshine</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     <link rel="stylesheet" type="text/css" href="assets/css/rwd.css">
     <script src="assets/js/jquery-3.4.0.min.js"></script>
@@ -15,12 +17,12 @@
         <div class="login_close" onclick="loginclose()">X</div>
         <img src="assets/img/umbrella.png" alt="" class="login_bg" /> 會員登入
 		<!--登入表單-->
-        <form class="loginform" action="送出目的地" method="資料傳送方式">
+        <form class="loginform" action="送出目的地" method="post">
             
             <input type="text" placeholder="帳號" required>
             <input type="password" placeholder="密碼" required>
-            <input type="submit" value="登入">
-            <form>
+            <input class="login_submit" type="submit" value="登入">
+          </form>
                 <a class="signup" href="">註冊新帳號</a>
     </div>
     <!--登入頁面結束-->
@@ -34,7 +36,7 @@
                     </li>
                     <li><a class="linkto">熱門商品</a>
                     </li>
-                    <li><a class="linkto">線上購物</a>
+                    <li><a href="table.html" class="linkto">線上購物</a>
                     </li>
                     <li><a class="linkto">會員專區</a>
                     </li>
