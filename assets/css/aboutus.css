@@ -63,9 +63,9 @@ div[class^="story"] {
     width:9em;
     overflow: hidden;
     white-space: nowrap;
-    animation-duration: 1.8s, 1s;
+    animation-duration: 0.9s, 1s;
     animation-timing-function: steps(9, end), steps(1, end);
-    animation-iteration-count: 1, 2;
+    animation-iteration-count: 1, 1;
       animation-fill-mode : forwards ; 
 
 }
@@ -79,7 +79,7 @@ div[class^="story"] {
     width:0em;
     overflow: hidden;
   white-space: nowrap;
-    animation-delay:2s,2s;
+    animation-delay:1s,1s;
     animation-duration: 1s, 1s;
     animation-timing-function: steps(1, end), steps(1, end);
     animation-iteration-count: 1, 1;
@@ -93,10 +93,10 @@ div[class^="story"] {
   width:21em;
   overflow: hidden;
   white-space: nowrap;
-  animation-delay: 3s,3s;
-  animation-duration: 4.2s, 1s;
+  animation-delay: 2s,2s;
+  animation-duration: 2.1s, 1s;
   animation-timing-function: steps(21, end), steps(1, end);
-  animation-iteration-count: 1, 6;
+  animation-iteration-count: 1, 3;
 }
 .story.p4 {
   animation-fill-mode: forwards;
@@ -107,10 +107,10 @@ div[class^="story"] {
     width:22em;
     overflow: hidden;
   white-space: nowrap;
-    animation-delay: 9s,9s;
-    animation-duration: 4.4s, 1s;
+    animation-delay: 5s,5s;
+    animation-duration: 2.2s, 1s;
     animation-timing-function: steps(22, end), steps(1, end);
-    animation-iteration-count: 1, 6;
+    animation-iteration-count: 1, 3;
 }
 .story.p5 {
   animation-fill-mode: forwards;
@@ -121,10 +121,10 @@ div[class^="story"] {
     width:19em;
     overflow: hidden;
   white-space: nowrap;
-    animation-delay: 15s,15s;
-    animation-duration: 3.8s, 1s;
+    animation-delay: 8s,8s;
+    animation-duration: 1.9s, 1s;
     animation-timing-function: steps(19, end), steps(1, end);
-    animation-iteration-count: 1, 5;
+    animation-iteration-count: 1, 2;
 }
 .story.p6 {
     opacity:0;
@@ -134,7 +134,7 @@ div[class^="story"] {
     width:0em;
     overflow: hidden;
   white-space: nowrap;
-    animation-delay: 20s,20s;
+    animation-delay: 10s,10s;
     animation-duration: 1s, 1s;
     animation-timing-function: steps(1, end), steps(1, end);
     animation-iteration-count: 1, 1;
@@ -148,10 +148,10 @@ div[class^="story"] {
     width:13em;
     overflow: hidden;
   white-space: nowrap;
-    animation-delay: 21s,21s;
-    animation-duration: 2.6s, 1s;
+    animation-delay: 11s,11s;
+    animation-duration: 1.3s, 1s;
     animation-timing-function: steps(13, end), steps(1, end);
-    animation-iteration-count: 1, 4;
+    animation-iteration-count: 1, 2;
 }
 .story.p8 {
   animation-fill-mode: forwards;
@@ -162,7 +162,7 @@ div[class^="story"] {
     width:0em;
     overflow: hidden;
   white-space: nowrap;
-    animation-delay: 25s,25s;
+    animation-delay: 13s,13s;
     animation-duration: 1s, 1s;
     animation-timing-function: steps(1, end), steps(1, end);
     animation-iteration-count: 1, 1;
@@ -176,10 +176,10 @@ div[class^="story"] {
     width:25em;
     overflow: hidden;
   white-space: nowrap;
-    animation-delay: 26s,26s;
-    animation-duration: 5s, 1s;
+    animation-delay: 14s,14s;
+    animation-duration: 2.5s, 1s;
     animation-timing-function: steps(25, end), steps(1, end);
-    animation-iteration-count: 1, 6;
+    animation-iteration-count: 1, 3;
 }
 .story.p10 {
   animation-fill-mode: forwards;
@@ -190,10 +190,10 @@ div[class^="story"] {
     width:15em;
     overflow: hidden;
   white-space: nowrap;
-    animation-delay: 32s,32s;
-    animation-duration: 3s, 1s;
+    animation-delay: 17s,17s;
+    animation-duration: 1.5s, 1s;
     animation-timing-function: steps(15, end), steps(1, end);
-    animation-iteration-count: 1, 4;
+    animation-iteration-count: 1, 2;
 }
 .story.p11 {
   animation-fill-mode: forwards;
@@ -204,10 +204,10 @@ div[class^="story"] {
     width:16em;
     overflow: hidden;
   white-space: nowrap;
-    animation-delay: 36s,36s;
-    animation-duration: 3.2s, 1s;
+    animation-delay: 19s,19s;
+    animation-duration: 1.6s, 1s;
     animation-timing-function: steps(16, end), steps(1, end);
-    animation-iteration-count: 1, 5;
+    animation-iteration-count: 1, 2;
 }
 .story.p12 {
   animation-fill-mode: forwards;
@@ -218,7 +218,7 @@ div[class^="story"] {
     width:0em;
     overflow: hidden;
   white-space: nowrap;
-    animation-delay: 41s,41s;
+    animation-delay: 21s,21s;
     animation-duration: 1s, 1s;
     animation-timing-function: steps(1, end), steps(1, end);
     animation-iteration-count: 1, 1;
@@ -232,8 +232,8 @@ div[class^="story"] {
     width:10em;
     overflow: hidden;
   white-space: nowrap;
-    animation-delay: 42s,42s;
-    animation-duration: 2s, 1s;
+    animation-delay: 22s,22s;
+    animation-duration: 1s, 1s;
     animation-timing-function: steps(10, end), steps(1, end);
     animation-iteration-count: 1, infinite;
 }
