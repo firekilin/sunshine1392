@@ -200,7 +200,7 @@ div[class^="story"] {
   opacity:0;
     word-spacing: normal;
     border-right: #ffffff00 .05em solid;
-    margin-left:calc(50% - 7.5em) ;
+    margin-left:calc(50% - 8em) ;
     width:16em;
     overflow: hidden;
   white-space: nowrap;
@@ -228,11 +228,26 @@ div[class^="story"] {
   opacity:0;
     word-spacing: normal;
     border-right: #ffffff00 .05em solid;
+    margin-left:calc(50% - 6.5em) ;
+    width:0em;
+    overflow: hidden;
+  white-space: nowrap;
+    animation-delay: 22s,22s;
+    animation-duration: 1s, 1s;
+    animation-timing-function: steps(1, end), steps(1, end);
+    animation-iteration-count: 1, 1;
+}
+.story.p14 {
+  animation-fill-mode: forwards;
+  opacity:0;
+  font-size:20px;
+    word-spacing: normal;
+    border-right: #ffffff00 .05em solid;
     margin-left:calc(50% - 5em) ;
     width:10em;
     overflow: hidden;
   white-space: nowrap;
-    animation-delay: 22s,22s;
+    animation-delay: 23s,23s;
     animation-duration: 1s, 1s;
     animation-timing-function: steps(10, end), steps(1, end);
     animation-iteration-count: 1, infinite;
@@ -305,3 +320,10 @@ div[class^="story"] {
     height: calc(80% - 42px);
     border-radius: 20px;
     border: 1px #b1e0ef solid;
+}
+.map {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+}
