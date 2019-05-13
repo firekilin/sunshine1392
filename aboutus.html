@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="zh-TW">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/rwd.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/aboutus.css">
+    <script src="assets/js/jquery-3.4.0.min.js"></script>
+    <script src="assets/js/menu.js"></script>
+</head>
+
+<body>
+    <!--登入頁面開始-->
+    <div class="login_window">
+        <div class="login_close" onclick="loginclose()">X</div>
+        <img src="assets/img/umbrella.png" alt="" class="login_bg" /> 會員登入
+        <!--登入表單-->
+        <form class="loginform" action="送出目的地" method="資料傳送方式">
+
+            <input type="text" placeholder="帳號" required>
+            <input type="password" placeholder="密碼" required>
+            <input type="submit" value="登入">
+            <form>
+                <a class="signup" href="">註冊新帳號</a>
+    </div>
+    <!--登入頁面結束-->
+    <div class="body">
+        <!--頁首開始-->
+        <header class="header">
+            <a class="logo_link" href="index.html"><img class="logo" src="assets/img/LOGO.png" alt="天晴雨傘" /></a>
+            <nav class="menu">
+                <ul>
+                    <li><a class="linkto">About us</a>
+                    </li>
+                    <li><a class="linkto">熱門商品</a>
+                    </li>
+                    <li><a class="linkto">線上購物</a>
+                    </li>
+                    <li><a class="linkto">會員專區</a>
+                    </li>
+                    <li><a class="linkto">訂單查詢</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="login_button"><img class="login_icon" alt="" src="assets/img/member1.png" />
+                <!--這個以JSP換圖片-->
+                <div class="login_content" onclick="loginopen()">會員登入</div>
+            </div>
+            <img class="shopping_car" alt="" src="assets/img/shoppingcart1.png" />
+            <!--這個以JSP換圖片-->
+        </header>
+        <!--頁首結束-->
+
+        <div class="main">
+            <div class="about_top"> <img alt="" src="assets/img/aboutus.png" class="about_img"> </div>
+            <div class="about_story">
+                <div class="story_title">品牌故事</div>
+                <div class="story p1">一路走來，感謝有你</div>
+                <div class="story p2"></div>
+                <div class="story p3">民國８９年６月，天晴成立於西門町的路邊攤，</div>
+                <div class="story p4">靠著一步一腳印的努力，以及顧客們的口碑相傳，</div>
+                <div class="story p5">民國９０年，天晴在台北開了第一家分店。</div>
+                <div class="story p6"></div>
+                <div class="story p7">經歷了金融風暴、物價上漲，</div>
+                <div class="story p8"></div>
+                <div class="story p9">從小小的路邊攤到７家分店，天晴已服務數不清的顧客，</div>
+                <div class="story p10">不變的是對於品質的堅持與保障，</div>
+                <div class="story p11">一家買傘，所有分店皆可免費維修，</div>
+                <div class="story p12"></div>
+                <div class="story p13">選擇天晴，唯一摯愛。</div>
+            </div>
+            <div class="about_content">
+                <div class="story_title">總店地址</div>
+
+                <div class="map">
+                    總店地址:320桃園市中壢區普忠路210號<br>客服專線:03-4204987
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1075.3933193971304!2d121.2456431562055!3d24.960073200385565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468221696eadbfd%3A0xc58861bd5867e7e5!2z5Lit5Y6f5aSn5a245L-h5a-m5a6_6IiN!5e0!3m2!1szh-TW!2stw!4v1557758470576!5m2!1szh-TW!2stw"
+                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="about_group">
+                <div class="story_title">團隊介紹</div>
+                <div class="group_one">
+                    <div class="group_img">
+						<img alt="" src="assets/img/cat1.jpg" />
+                        <div class="img_content">喵喵喵<br>負責項目:遮雨</div>
+                    </div>
+                    <div class="group_content">這是心得</div>
+                </div>
+				
+                <div class="group_two">
+                    <div class="group_img">
+						<img alt="" src="assets/img/cat1.jpg" />
+                        <div class="img_content">喵喵喵<br>負責項目:遮雨</div>
+                    </div>
+                    <div class="group_content">這是心得</div>
+                </div>
+				<div class="group_one">
+                    <div class="group_img">
+						<img alt="" src="assets/img/cat1.jpg" />
+                        <div class="img_content">喵喵喵<br>負責項目:遮雨</div>
+                    </div>
+                    <div class="group_content">這是心得</div>
+                </div>
+				
+                <div class="group_two">
+                    <div class="group_img">
+						<img alt="" src="assets/img/cat1.jpg" />
+                        <div class="img_content">喵喵喵<br>負責項目:遮雨</div>
+                    </div>
+                    <div class="group_content">這是心得</div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!--頁尾在此-->
+    <div class="footer">
+        <img alt="" class="footer_img" src="assets/img/umbrella.png" />
+        <div class="findus">
+            <a class="findus_link" href="">FB線上客服</a>/
+            <a class="findus_link" href="">Line線上客服(ID：@cute2754720)</a>
+            <br><a class="findus_link" href="">03-4204987</a>
+            <br><a class="findus_link" href="">E-mail：kittylu327@gmail.com</a>
+        </div>
+        <div class="footer_menu">
+            <a class="footer_link" href="">About us</a>
+            <a class="footer_link" href="">會員專區</a>
+            <a class="footer_link" href="">熱門商品</a>
+            <a class="footer_link" href="">訂單查詢</a>
+            <a class="footer_link" href="">線上購物</a>
+            <a class="footer_link" href="">常見QA</a>
+        </div>
+        <img alt="" class="footer_QRcode" src="assets/img/umbrella.png" />
+    </div>
+    <div class="top" onclick="$('html, body').animate({ scrollTop:0 }, 800)">
+
+        <img class="top_img" onclick="$('body').animate( { scrollTop:0 }, 800)" src="assets/img/arrow.png" alt="" />
+    </div>
+</body>
+
+
+
+</html>
