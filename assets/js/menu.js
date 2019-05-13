@@ -81,7 +81,7 @@ function loginopen(){
     'background': '#b1e0ef',
     'border-radius': '100px',
     'right': 'calc(50% - 360px)',
-    'z-index': '5',
+    'z-index': '6',
     'text-align': 'center',
 	'overflow': 'visible',
 	'top': '200px',
