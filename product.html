@@ -3,6 +3,7 @@
 
 <head>
 	<title>天晴sunshine</title>
+	<LINK REL="SHORTCUT ICON" HREF="favicon.ico"> 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" type="text/css" href="assets/css/rwd.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/side_menu.css">
@@ -71,7 +72,7 @@
 		</nav>
 		<!--功能分類結束-->
 		<div class="main">
-		<img src="assets/img/shop.png" class="shop_img" alt="" / >
+		<img src="assets/img/shop.png" class="shop_img" alt="" />
 			<div class="location"><!--所在位置-->回上頁</div>
 			<!--商品顯示-->
 			<div class="product_buy">
@@ -84,7 +85,7 @@
 					<ul>
 						<li>商品編號:</li>
 						<li>商品售價:</li>
-						<li>商品數量:<input name="" type="number" placeholder="0" />
+						<li>商品數量:<input name="number" type="number" placeholder="0" />
 					</ul>
 					
 						<!--加油~-->
@@ -114,18 +115,21 @@
 					<tr>
 						<td rowspan="2">5/10<br>購買者名</td>
 						<td class="star">
-							<input type="radio" id="star5" name="rating" value="5" checked hidden /> 
+							<input type="radio" id="rating5" name="rating" value="5" checked hidden /> 
+                            <label for="rating5"></label>
 							<!--   每個評論的星星name 要不一樣 像是第一筆 他的name是rating 第二筆就不能一樣的name -->
 							<!--   可以用訂單編號來代表name這樣就不會重複了-->
-                            <label for="star5"></label>
-                            <input type="radio" id="star4" name="rating" value="4" hidden />
-                            <label for="star4"></label>
-                            <input type="radio" id="star3" name="rating" value="3" hidden />
-                            <label for="star3"></label>
-                            <input type="radio" id="star2" name="rating" value="2"  hidden />
-                            <label for="star2"></label>
-                            <input type="radio" id="star1" name="rating" value="1" hidden />
-                            <label for="star1"></label>
+							<!--   以及id 每個回覆地星星id都不能重複 所以也可以使用訂單編號5~訂單編號1  -->
+							<!--  目前使用rating5~rating1 如果用到重複的會讓使用者點後是其他星星有反應的問題-->
+							<!--  lebel for針對的是上面一個的id-->
+                            <input type="radio" id="rating4" name="rating" value="4" hidden />
+                            <label for="rating4"></label>
+                            <input type="radio" id="rating3" name="rating" value="3" hidden />
+                            <label for="rating3"></label>
+                            <input type="radio" id="rating2" name="rating" value="2"  hidden />
+                            <label for="rating2"></label>
+                            <input type="radio" id="rating1" name="rating" value="1" hidden />
+                            <label for="rating1"></label>
 						</td>
 					</tr>
 					<tr>
@@ -137,16 +141,16 @@
 					<tr>
 						<td rowspan="2">5/10<br>購買者名</td>
 						<td class="star">
-							<input type="radio" id="star5" name="one" value="5" hidden />
-                            <label for="star5"></label>
-                            <input type="radio" id="star4" name="one" value="4" checked hidden />
-                            <label for="star4"></label>
-                            <input type="radio" id="star3" name="one" value="3" hidden />
-                            <label for="star3"></label>
-                            <input type="radio" id="star2" name="one" value="2" hidden />
-                            <label for="star2"></label>
-                            <input type="radio" id="star1" name="one" value="1" hidden />
-                            <label for="star1"></label>
+							<input type="radio" id="one5" name="one" value="5" hidden />
+                            <label for="one5"></label>
+                            <input type="radio" id="one4" name="one" value="4" checked hidden />
+                            <label for="one4"></label>
+                            <input type="radio" id="one3" name="one" value="3" hidden />
+                            <label for="one3"></label>
+                            <input type="radio" id="one2" name="one" value="2" hidden />
+                            <label for="one2"></label>
+                            <input type="radio" id="one1" name="one" value="1" hidden />
+                            <label for="one1"></label>
 						</td>
 					</tr>
 					<tr>
@@ -157,16 +161,16 @@
 					<tr>
 						<td rowspan="2">5/10<br>購買者名</td>
 						<td class="star">
-							<input type="radio" id="star5" name="two" value="5" checked hidden />
-                            <label for="star5"></label>
-                            <input type="radio" id="star4" name="two" value="4" hidden />
-                            <label for="star4"></label>
-                            <input type="radio" id="star3" name="two" value="3" hidden />
-                            <label for="star3"></label>
-                            <input type="radio" id="star2" name="two" value="2" hidden />
-                            <label for="star2"></label>
-                            <input type="radio" id="star1" name="two" value="1" hidden />
-                            <label for="star1"></label>
+							<input type="radio" id="two5" name="two" value="5" checked hidden />
+                            <label for="two5"></label>
+                            <input type="radio" id="two4" name="two" value="4" hidden />
+                            <label for="two4"></label>
+                            <input type="radio" id="two3" name="two" value="3" hidden />
+                            <label for="two3"></label>
+                            <input type="radio" id="two2" name="two" value="2" hidden />
+                            <label for="two2"></label>
+                            <input type="radio" id="two1" name="two" value="1" hidden />
+                            <label for="two1"></label>
 						</td>
 					</tr>
 					<tr>
@@ -177,16 +181,16 @@
 					<tr>
 						<td rowspan="2">5/10<br>購買者名</td>
 						<td class="star">
-							<input type="radio" id="star5" name="three" value="5" hidden />
-                            <label for="star5"></label>
-                            <input type="radio" id="star4" name="three" value="4" hidden />
-                            <label for="star4"></label>
-                            <input type="radio" id="star3" name="three" value="3" checked hidden />
-                            <label for="star3"></label>
-                            <input type="radio" id="star2" name="three" value="2" hidden />
-                            <label for="star2"></label>
-                            <input type="radio" id="star1" name="three" value="1" hidden />
-                            <label for="star1"></label>
+							<input type="radio" id="three5" name="three" value="5" hidden />
+                            <label for="three5"></label>
+                            <input type="radio" id="three4" name="three" value="4" hidden />
+                            <label for="three4"></label>
+                            <input type="radio" id="three3" name="three" value="3" checked hidden />
+                            <label for="three3"></label>
+                            <input type="radio" id="three2" name="three" value="2" hidden />
+                            <label for="three2"></label>
+                            <input type="radio" id="three1" name="three" value="1" hidden />
+                            <label for="three1"></label>
 						</td>
 					</tr>
 					<tr>
