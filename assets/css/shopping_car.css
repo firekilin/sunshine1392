@@ -1,0 +1,94 @@
+table.shopping_list {
+    width: 100%;
+    position: relative;
+    border: 5px #ced3db solid;
+    padding: 50px 50px 20px 50px;
+    text-align: center;
+}
+
+.car_product_img {
+    width: 10%;
+}
+
+.product_img {
+    width: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.car_product_num input[type="number"] {
+    text-align: center;
+    color: #187898;
+    width: 30px;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    top: 0px;
+    border: 1px #b1e0ef solid;
+}
+
+.car_product_num .down {
+    margin-left: calc(50% - 40px);
+    text-align: center;
+    width: 25px;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    border: 1px #b1e0ef solid;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    cursor: pointer;
+}
+
+.car_product_num .up {
+    width: 25px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 1px #b1e0ef solid;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main {
+    color: #187898;
+    font-weight: bold;
+}
+
+.car_product_total {
+    color: red;
+}
+
+.buy {
+    margin-top: 50px;
+    word-spacing: normal;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.buy_total {
+    display: inline-block;
+    color: red;
+}
+
+td[colspan="6"] {
+    text-align: right;
+}
+
+.buy input[type="submit" i] {
+    margin-left: 20px;
+    border-radius: 50px;
+    border: none;
+    background: #f46270;
+    color: white;
+    line-height: 20px;
+    font-size: 20px;
+    width: 150px;
+    height: 30px;
+}
