@@ -6,6 +6,14 @@ $(window).scroll(function() {
 		sidemenu=1;
 		sidemenu2=$('.side_menu').offset().top;
 	}
+	if(scroll>=getmenu2)
+	{
+		$('.side_menu').css( {
+
+	'margin-top': '0px',
+
+	});
+	}
 	if(scroll>=sidemenu2-170)
 	{
 		
