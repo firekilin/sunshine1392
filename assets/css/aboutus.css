@@ -240,7 +240,8 @@ div[class^="story"] {
 .story.p14 {
   animation-fill-mode: forwards;
   opacity:0;
-  font-size:20px;
+  font-size:25px;
+    line-height:25px;
     word-spacing: normal;
     border-right: #ffffff00 .05em solid;
     margin-left:calc(50% - 5em) ;
