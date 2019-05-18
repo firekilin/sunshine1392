@@ -4,15 +4,17 @@
 <head>
 	<title>天晴sunshine</title>
 	<LINK REL="SHORTCUT ICON" HREF="favicon.ico"> 
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" type="text/css" href="assets/css/rwd.css">
-	  <link rel="stylesheet" type="text/css" href="assets/css/checkout_complete.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/side_menu.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/trading_record.css">
     <script src="assets/js/jquery-3.4.0.min.js"></script>
     <script src="assets/js/menu.js"></script>
+	<script src="assets/js/table.js"></script>
 </head>
 
 <body>
-    <!--登入頁面開始-->
+       <!--登入頁面開始-->
     <div class="login_window">
         <div class="login_close" onclick="loginclose()">X</div>
         <img src="assets/img/umbrella.png" alt="" class="login_bg" /> 會員登入
@@ -44,7 +46,7 @@
     <div class="body">
         <!--頁首開始-->
         <header class="header">
-           <a class="logo_link" href="index.html"><img class="logo" src="assets/img/LOGO.png" alt="天晴雨傘" /></a>
+            <a class="logo_link" href="index.html"><img class="logo" src="assets/img/LOGO.png" alt="天晴雨傘" /></a>
             <nav class="menu">
                 <ul>
                     <li><a class="linkto" href="aboutus.html">About us</a>
@@ -67,12 +69,104 @@
             <!--這個以JSP換圖片-->
         </header>
         <!--頁首結束-->
+		<!--功能分類-->
+		<nav class="side_menu">
+			<div class="side_menu_title">會員專區</div>
+			<ul>
+                    <li><a href="personal.html" class="side_menu_link">個人檔案</a>
+                    </li>
+                    <li><a href="password_check.html" class="side_menu_link">修改密碼</a>
+                    </li>
+                    <li><a href="trading_record_check.html" class="side_menu_link">消費紀錄</a>
+                    </li>
+                    <li><a href="comment_record_check.html" class="side_menu_link">評分紀錄</a>
+                    </li>
+                  
+                </ul>
+		</nav>
+		<!--功能分類結束-->
 		<div class="main">
-			<div class="checkout_coplete_content">
-			您此訂單編號:00999<br>訂單狀態:待確認
-				</div>
-				<a class="home_link" href="index.html">回到首頁</a>
-				<a class="personal_link" href="index.html">會員專區</a>
+			<div class="trading_record_title">
+				消費紀錄
+			</div>
+
+
+			<table class="trading_record_table">
+				
+				<tr>
+					<td class="trading_record_product">
+						<img src="assets/img/cat1.jpg" alt="" />
+						<div class="trading_record_list">
+							訂單編號:00999<br>
+							商品名稱:90cm-QQ橘貓咪晴雨傘<br>
+							購買數量:1<br>
+							購買日期:2019/05/10<br>
+							訂單是否完成:是<br>
+							評分紀錄:有<br>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="trading_record_product">
+						<img src="assets/img/cat1.jpg" alt="" />
+						<div class="trading_record_list">
+							訂單編號:00999<br>
+							商品名稱:90cm-QQ橘貓咪晴雨傘<br>
+							購買數量:1<br>
+							購買日期:2019/05/10<br>
+							訂單是否完成:是<br>
+							評分紀錄:有<br>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="trading_record_product">
+						<img src="assets/img/cat1.jpg" alt="" />
+						<div class="trading_record_list">
+							訂單編號:00999<br>
+							商品名稱:90cm-QQ橘貓咪晴雨傘<br>
+							購買數量:1<br>
+							購買日期:2019/05/10<br>
+							訂單是否完成:是<br>
+							評分紀錄:有<br>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="trading_record_product">
+						<img src="assets/img/cat1.jpg" alt="" />
+						<div class="trading_record_list">
+							訂單編號:00999<br>
+							商品名稱:90cm-QQ橘貓咪晴雨傘<br>
+							購買數量:1<br>
+							購買日期:2019/05/10<br>
+							訂單是否完成:是<br>
+							評分紀錄:有<br>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="trading_record_product">
+						<img src="assets/img/cat1.jpg" alt="" />
+						<div class="trading_record_list">
+							訂單編號:00999<br>
+							商品名稱:90cm-QQ橘貓咪晴雨傘<br>
+							購買數量:1<br>
+							購買日期:2019/05/10<br>
+							訂單是否完成:是<br>
+							評分紀錄:有<br>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="trading_record_page">
+						<a href="" >上一頁</a><a href="" >下一頁</a>
+					</td>
+				</tr>
+			</table>
+	
+
+			
 		</div>
 		
     </div>

@@ -1,0 +1,45 @@
+.trading_record_title {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px 0px 30px 0px;
+    border-top: 1px #b1e0ef solid;
+}
+
+.trading_record_table {
+    width: 90%;
+    border: 2px #ced3db solid;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+
+.trading_record_product {
+    height: 120px;
+    width: 80%;
+    font-size: 0.8em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: calc(50% - 210px);
+}
+
+.trading_record_product img {
+    height: 100%;
+    display: inline-block;
+}
+
+.trading_record_list {
+    width: 280px;
+    display: inline-block;
+    padding-left: 20px;
+}
+.trading_record_page {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.trading_record_page a {
+    margin-left: 20px;
+}

@@ -1,0 +1,119 @@
+.star input:checked~label,
+.star label,
+.star label:hover,
+.star label:hover~label {
+    background: url('../img/star.png') no-repeat;
+}
+
+.star {
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+.star input {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    width: 43px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.star input:checked~label {
+    background-position: 0 -40px;
+    height: 40px;
+    width: 43px;
+}
+
+.star label {
+    background-position: 0 0;
+    height: 40px;
+    width: 43px;
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.star label:hover,
+.star label:hover~label {
+    background-position: 0 -40px;
+    height: 40px;
+    width: 43px;
+}
+
+.comment_record_product {
+    padding-top: 20px;
+    width: 100%;
+    height: 200px;
+}
+
+.comment_record_product img {
+    height: 100px;
+    margin-top: 50px;
+    float: left;
+    top: 0px;
+}
+
+.product_content {
+    float: left;
+    padding-left: 20px;
+    top: 0px;
+    width: 35%;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.product_comment {
+    float: left;
+    width: calc(65% - 150px);
+}
+
+.comment_record_table {
+    width: 95%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    border: 5px #ced3db solid;
+    margin-left: 2.5%;
+}
+
+.comment_text {
+    width: 100%;
+    height: 98px;
+    padding: 20px 5px 0 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #187898;
+    font-size: 16px;
+    border: 5px #b1e0ef solid;
+}
+
+input[type="submit"] {
+    background: #f46270;
+    height: 30px;
+    width: 80px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.comment_record_title {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px 0px 30px 0px;
+    border-top: 1px #b1e0ef solid;
+}
+
+.trading_record_page {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.trading_record_page a {
+    margin-left: 20px;
+}
