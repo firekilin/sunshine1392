@@ -1,0 +1,76 @@
+.main {
+    color: #187898;
+    font-weight: bold;
+}
+table.shopping_list {
+    width: 100%;
+    position: relative;
+    border: 5px #ced3db solid;
+    padding: 50px 50px 20px 50px;
+    text-align: center;
+}
+
+.car_product_img {
+    width: 10%;
+}
+
+.product_img {
+    width: 100%;
+}
+
+
+
+.car_product_total {
+    color: red;
+}
+
+
+.shopping_list input[type="submit" i] {
+    margin-left: 20px;
+    border-radius: 50px;
+    border: none;
+    background: #f46270;
+    color: white;
+    line-height: 20px;
+    font-size: 20px;
+    width: 150px;
+    height: 30px;
+    margin-top: 50px;
+}
+
+.shopping_list .total {width: 200px;font-size: 20px;text-align: left;margin-left: calc(100% - 200px);margin-bottom: 20px;}
+
+.personal_title {
+    padding: 5px 0px;
+    background: #b1e0ef;
+}
+
+.personal_content .personal_content {
+}
+
+.content_title {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 20px;
+    left: 0px;
+    width: 150px;
+    text-align: right;
+    padding: 5px 20px;
+}
+
+.personal_content input[type="text"] {
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px 5px;
+}
+td.personal_content {
+    text-align: left;
+}
+.personal_content input::-webkit-input-placeholder {
+    color: #187898;
+}
+
+.local {
+    width: calc(100% - 250px);
+}

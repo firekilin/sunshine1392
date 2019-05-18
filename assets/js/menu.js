@@ -53,6 +53,7 @@ $('.logo_link').css( {
     'width':' 116px',
     'height':' auto',
     'z-index':' 5',
+	'margin':' 0',
 });
 		
 	}else{
@@ -84,10 +85,54 @@ function loginopen(){
     'z-index': '6',
     'text-align': 'center',
 	'overflow': 'visible',
-	'top': '200px',
+	'top': 'calc(50% - 225px',
+	'transform': 'rotateY(0deg)',
+});
+	
+if($('.jogin_window')[0].attributes.style!=undefined){
+	$('.jogin_window')[0].removeAttribute('style');
+}
+$('.jogin_window').css( {
+
+    'transform': 'rotateY(90deg)',
+	
 });
 }
 
 function loginclose(){
 	$('.login_window')[0].removeAttribute('style');
 }
+/*註冊頁面*/
+
+function joginopen(){
+	$('.jogin_window').css( {
+	'transform': 'rotateY(0deg)',
+});
+	if($('.login_window')[0].attributes.style!=undefined){
+	$('.login_window')[0].removeAttribute('style');
+}
+$('.login_window').css( {
+         'position': 'fixed',
+    'padding-top': '40px',
+    'width': '720px',
+    'height': '550px',
+    'font-size': '30px',
+    'font-weight': 'bolder',
+    'color': '#187898',
+    'background': '#b1e0ef',
+    'border-radius': '100px',
+    'right': 'calc(50% - 360px)',
+    'z-index': '6',
+    'text-align': 'center',
+	'overflow': 'visible',
+	'top': 'calc(50% - 275px)',
+	'transform': 'rotateY(90deg)',
+	
+});
+
+}
+
+function joginclose(){
+	$('.jogin_window')[0].removeAttribute('style');
+}
+

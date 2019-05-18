@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <!--登入頁面開始-->
+       <!--登入頁面開始-->
     <div class="login_window">
         <div class="login_close" onclick="loginclose()">X</div>
         <img src="assets/img/umbrella.png" alt="" class="login_bg" /> 會員登入
@@ -24,8 +24,23 @@
             <input type="text" placeholder="帳號" required>
             <input type="password" placeholder="密碼" required>
             <input class="login_submit" type="submit" value="登入">
-            </form>
-                <a class="signup" href="register.html">註冊新帳號</a>
+          </form>
+                <a class="signup" onclick="joginopen()">註冊新帳號</a>
+    </div>
+	  <div class="jogin_window">
+        <div class="jogin_close" onclick="joginclose()">X</div>
+        <img src="assets/img/umbrella.png" alt="" class="login_bg" /> 會員註冊
+		<!--登入表單-->
+        <form class="joginform" action="送出目的地" method="post">
+            
+            <input type="text" placeholder="帳號:　　※請輸入至少8位數英字" name="account"  required >
+			<input type="Email" name="account" placeholder="Email"  required />
+			<input type="password" placeholder="密碼:　　※請輸入至少10位數英字name="account"  required />
+			<input type="password" name="account"  placeholder="再次確認密碼" required />
+            <input class="jogin_submit" type="submit" value="註冊">
+          </form>
+		  <a class="signup" onclick="loginopen()">登入帳號</a>
+
     </div>
     <!--登入頁面結束-->
     <div class="body">
@@ -46,7 +61,7 @@
                     </li>
                 </ul>
             </nav>
-            <div class="login_button"><img class="login_icon" alt="" src="assets/img/member1.png" />
+            <div class="login_button" onclick="loginopen()"><img  onclick="loginopen()" class="login_icon" alt="" src="assets/img/member1.png" />
                 <!--這個以JSP換圖片-->
                 <div class="login_content" onclick="loginopen()">會員登入</div>
             </div>
