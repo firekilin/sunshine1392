@@ -1,0 +1,36 @@
+.main {
+    width: 100%;
+    margin-top: 200px;
+    color: #187898;
+    font-size: 25px;
+}
+
+.search_main {
+    position: relative;
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+    border: 5px #ced3db solid;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.search_main input[type="text"] {
+    font-size: 25px;
+    border: 2px #c7bfbf solid;
+    margin-left: 10px;
+}
+
+
+.enter {
+    height: 60px;
+    width: 200px;
+    border: none;
+    border-radius: 50px;
+    margin-left: calc(50% - 100px);
+    background: #7cc3db;
+    color: #187898;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+}
