@@ -6,10 +6,9 @@
 	<LINK REL="SHORTCUT ICON" HREF="favicon.ico"> 
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" type="text/css" href="assets/css/rwd.css">
-	    <link rel="stylesheet" type="text/css" href="assets/css/shopping_car.css">
+	    <link rel="stylesheet" type="text/css" href="assets/css/register.css">
     <script src="assets/js/jquery-3.4.0.min.js"></script>
     <script src="assets/js/menu.js"></script>
-	    <script src="assets/js/shopping_car.js"></script>
 </head>
 
 <body>
@@ -54,68 +53,45 @@
         </header>
         <!--頁首結束-->
 		<div class="main">
-			<img class="main_img" alt="" src="" />
-				<form method="post"  action="送出目的地" >
-				<table class="shopping_list">
-					<tr>
-						<td></td><td></td><td>單價</td><td>數量</td><td>總計</td><td>操作</td>
-					</tr>
-					<!--商品從這開始-->
-					<tr>
-						<td class="car_product_img"><img class="product_img" alt="" src="assets/img/cat1.jpg" /></td>
-						<td class="car_product_name">商品名稱:90cm-QQ橘貓咪晴雨傘</td>
-						<td class="car_product_price">$100</td>
-						<td class="car_product_num">
-							<div class="down">-</div>
-							<input name="number" type="number" value="2" />
-							<div class="up">+</div>
-						</td>
-						<td class="car_product_total">$200</td>
-						<td class="car_product_delete"><a href="">刪除</a></td>
-					</tr>
-					<!--商品單個-->
-					<tr>
-						<td class="car_product_img"><img class="product_img" alt="" src="assets/img/cat1.jpg" /></td>
-						<td class="car_product_name">商品名稱:90cm-QQ橘貓咪晴雨傘</td>
-						<td class="car_product_price">$100</td>
-						<td class="car_product_num">
-							<div class="down">-</div>
-							<input name="number" type="number" value="2" />
-							<div class="up">+</div>
-						</td>
-						<td class="car_product_total">$200</td>
-						<td class="car_product_delete"><a href="">刪除</a></td>
-					</tr>
-					<tr>
-						<td class="car_product_img"><img class="product_img" alt="" src="assets/img/cat1.jpg" /></td>
-						<td class="car_product_name">商品名稱:90cm-QQ橘貓咪晴雨傘</td>
-						<td class="car_product_price">$100</td>
-						<td class="car_product_num">
-							<div class="down">-</div>
-							<input name="number" type="number" value="2" />
-							<div class="up">+</div>
-						</td>
-						<td class="car_product_total">$200</td>
-						<td class="car_product_delete"><a href="">刪除</a></td>
-					</tr><tr>
-						<td class="car_product_img"><img class="product_img" alt="" src="assets/img/cat1.jpg" /></td>
-						<td class="car_product_name">商品名稱:90cm-QQ橘貓咪晴雨傘</td>
-						<td class="car_product_price">$100</td>
-						<td class="car_product_num">
-							<div class="down">-</div>
-							<input name="number" type="number" value="2" />
-							<div class="up">+</div>
-						</td>
-						<td class="car_product_total">$200</td>
-						<td class="car_product_delete"><a href="">刪除</a></td>
-					</tr>
-<tr>
-						<td  colspan="6"><div class="buy">購買總金額(X個商品):<div class="buy_total">99999</div><input type="submit" value="前往結帳"></div></td>
-					</tr>
-					
-				</table>
-
-				</form>
+			<table class="register_table">
+				<tr>
+					<td class="table_title">
+						帳號:
+					</td>
+					<td>
+						<input type="text" placeholder="請輸入至少8位數英字" name="account"  required />
+					</td>
+				</tr>
+				<tr>
+					<td class="table_title">
+						Email:
+					</td>
+					<td>
+						<input type="Email" name="account"  required />
+					</td>
+				</tr>
+				<tr>
+					<td class="table_title">
+						密碼:
+					</td>
+					<td>
+						<input type="password" placeholder="請輸入至少10位數英字" name="account"  required />
+					</td>
+				</tr>
+				<tr>
+					<td class="table_title">
+						再次確認密碼:
+					</td>
+					<td>
+					<input type="password" name="account"  required />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="submit" class="table_submit" value="註冊" />
+					</td>
+				</tr>
+			</table>
 		</div>
     </div>
     <!--頁尾在此-->

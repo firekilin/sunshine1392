@@ -25,7 +25,7 @@
             <input type="password" placeholder="密碼" required>
             <input class="login_submit" type="submit" value="登入">
             </form>
-                <a class="signup" href="">註冊新帳號</a>
+                <a class="signup" href="register.html">註冊新帳號</a>
     </div>
     <!--登入頁面結束-->
     <div class="body">
@@ -34,13 +34,13 @@
             <a class="logo_link" href="index.html"><img class="logo" src="assets/img/LOGO.png" alt="天晴雨傘" /></a>
             <nav class="menu">
                 <ul>
-                    <li><a class="linkto">About us</a>
+                    <li><a class="linkto" href="aboutus.html">About us</a>
                     </li>
-                    <li><a class="linkto">熱門商品</a>
+                    <li><a class="linkto" href="index.html">熱門商品</a>
                     </li>
-                    <li><a href="table.html" class="linkto">線上購物</a>
+                    <li><a class="linkto" href="table.html">線上購物</a>
                     </li>
-                    <li><a class="linkto">會員專區</a>
+                    <li><a class="linkto" href="personal.html">會員專區</a>
                     </li>
                     <li><a class="linkto">訂單查詢</a>
                     </li>
@@ -50,7 +50,7 @@
                 <!--這個以JSP換圖片-->
                 <div class="login_content" onclick="loginopen()">會員登入</div>
             </div>
-            <img class="shopping_car" alt="" src="assets/img/shoppingcart1.png" />
+            <a href="shopping_car.html"><img class="shopping_car" alt="" src="assets/img/shoppingcart1.png" /></a>
             <!--這個以JSP換圖片-->
         </header>
         <!--頁首結束-->
@@ -74,15 +74,16 @@
 			<div class="personal_title">
 				個人檔案
 			</div>
+			<form action="目的地" method="post">
 			<table class="personal_table">
 				<tr>
-					<td class="personal_tt">帳號名稱:</td><td></td>
+					<td class="personal_tt">帳號名稱:</td><td><div class="person_account">qqqqqqq</div></td>
 				</tr>
 				<tr>
-					<td class="personal_tt">姓名:</td><td>kilin</td>
+					<td class="personal_tt">姓名:</td><td><input type="text" placeholder="XXX" value="kilin" /></td>
 				</tr>
 				<tr>
-					<td class="personal_tt">性別:</td><td><input type="text" placeholder="男/女" value="男" /></td>
+					<td class="personal_tt">性別:</td><td><input name="sex"  type="radio" value="男" checked />男&nbsp;<input name="sex" type="radio" value="女" />女</td>
 				</tr>
 				<tr>
 					<td class="personal_tt">手機號碼:</td><td><input type="text" placeholder="0912345678" value="0932509966" /></td>
@@ -91,6 +92,9 @@
 					<td class="personal_tt">寄送地址:</td><td><input type="text" placeholder="地址" value="不告訴你" /></td>
 				</tr>
 			</table>
+				<input class="enter" value="確認修改" type="submit"/>
+			</form>
+			
 		</div>
 		
     </div>

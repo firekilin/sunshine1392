@@ -1,8 +1,9 @@
 .personal_title {
     width: 100%;
     text-align: center;
-    font-size: 30px;
-    padding: 20px 0px 20px 0px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px 0px 30px 0px;
     border-top: 1px #b1e0ef solid;
 }
 
@@ -17,3 +18,36 @@
     text-align: right;
     padding-right: 20px;
 }
+.person_account {
+    background: #ebedf0;
+    width: 60%;
+}
+
+.personal_table input {
+    border: 2px #ced3db solid;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 70%;
+}
+
+input [type=radio] {}
+
+input[type="radio"] {
+    width: auto;
+}
+
+.enter {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 30px;
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+    background: #7cc3db;
+    color: #187898;
+}
+
