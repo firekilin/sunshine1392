@@ -6,7 +6,6 @@
 	<LINK REL="SHORTCUT ICON" HREF="favicon.ico"> 
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" type="text/css" href="assets/css/rwd.css">
-	    <link rel="stylesheet" type="text/css" href="assets/css/search_complete.css">
     <script src="assets/js/jquery-3.4.0.min.js"></script>
     <script src="assets/js/menu.js"></script>
 </head>
@@ -21,24 +20,9 @@
             
             <input type="text" placeholder="帳號" required>
             <input type="password" placeholder="密碼" required>
-            <input class="login_submit" type="submit" value="登入">
-          </form>
-                <a class="signup" onclick="joginopen()">註冊新帳號</a>
-    </div>
-	  <div class="jogin_window">
-        <div class="jogin_close" onclick="joginclose()">X</div>
-        <img src="assets/img/umbrella.png" alt="" class="login_bg" /> 會員註冊
-		<!--登入表單-->
-        <form class="joginform" action="送出目的地" method="post">
-            
-            <input type="text" placeholder="帳號　　※請輸入至少8位數英字" name="account"  required >
-			<input type="Email" name="account" placeholder="Email"  required />
-			<input type="password" placeholder="密碼　　※請輸入至少10位數英字"name="account"  required />
-			<input type="password" name="account"  placeholder="再次確認密碼" required />
-            <input class="jogin_submit" type="submit" value="註冊">
-          </form>
-		  <a class="signup" onclick="loginopen()">登入帳號</a>
-
+            <input type="submit" value="登入">
+            </form>
+                <a class="signup" href="">註冊新帳號</a>
     </div>
     <!--登入頁面結束-->
     <div class="body">
@@ -47,38 +31,27 @@
            <a class="logo_link" href="index.html"><img class="logo" src="assets/img/LOGO.png" alt="天晴雨傘" /></a>
             <nav class="menu">
                 <ul>
-                    <li><a class="linkto" href="aboutus.html">About us</a>
+                    <li><a class="linkto">About us</a>
                     </li>
-                    <li><a class="linkto" href="index.html">熱門商品</a>
+                    <li><a class="linkto">熱門商品</a>
                     </li>
-                    <li><a class="linkto" href="table.html">線上購物</a>
+                    <li><a class="linkto">線上購物</a>
                     </li>
-                    <li><a class="linkto" href="personal.html">會員專區</a>
+                    <li><a class="linkto">會員專區</a>
                     </li>
-                    <li><a class="linkto" href="search.html">訂單查詢</a>
+                    <li><a class="linkto">訂單查詢</a>
                     </li>
                 </ul>
             </nav>
-            <div class="login_button" onclick="loginopen()"><img  onclick="loginopen()" class="login_icon" alt="" src="assets/img/member1.png" />
+            <div class="login_button"><img class="login_icon" alt="" src="assets/img/member1.png" />
                 <!--這個以JSP換圖片-->
                 <div class="login_content" onclick="loginopen()">會員登入</div>
             </div>
-            <a href="shopping_car.html"><img class="shopping_car" alt="" src="assets/img/shoppingcart1.png" /></a>
+            <img class="shopping_car" alt="" src="assets/img/shoppingcart1.png" />
             <!--這個以JSP換圖片-->
         </header>
         <!--頁首結束-->
-		<div class="main">
-            <img src="assets/img/order.png" class="order">
-			<form action="search_complete.html" method="post">
-				<div class="search_main">
-				訂單編號:00999<br>
-				訂單狀態:運送中
-				</div>
-					
-
-				<input class="enter" value="確認" type="submit"/>
-			</form>
-		</div>
+		
     </div>
     <!--頁尾在此-->
     <div class="footer">
@@ -90,11 +63,11 @@
             <br><a class="findus_link" href="">E-mail：kittylu327@gmail.com</a>
         </div>
         <div class="footer_menu">
-            <a class="footer_link" href="aboutus.html">About us</a>
-            <a class="footer_link" href="personal.html">會員專區</a>
-            <a class="footer_link" href="index.html">熱門商品</a>
-            <a class="footer_link" href="search.html">訂單查詢</a>
-            <a class="footer_link" href="table.html">線上購物</a>
+            <a class="footer_link" href="">About us</a>
+            <a class="footer_link" href="">會員專區</a>
+            <a class="footer_link" href="">熱門商品</a>
+            <a class="footer_link" href="">訂單查詢</a>
+            <a class="footer_link" href="">線上購物</a>
             <a class="footer_link" href="">常見QA</a>
         </div>
         <img alt="" class="footer_QRcode" src="assets/img/umbrella.png" />

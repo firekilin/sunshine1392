@@ -3,7 +3,7 @@
     text-align: center;
     font-weight: bold;
     font-size: 20px;
-    padding: 30px 0px 30px 0px;
+    padding: 10px 0px 10px 0px;
     border-top: 1px #b1e0ef solid;
 }
 
@@ -20,12 +20,14 @@
 }
 .person_account {
     background: #ebedf0;
-    width: 60%;
+    width: 73%;
+    height: 40px;
+    line-height: 40px;
 }
 
 .personal_table input {
     border: 2px #ced3db solid;
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -39,15 +41,20 @@ input[type="radio"] {
 }
 
 .enter {
-    width: 20%;
+    width: 18%;
     margin-left: 40%;
-    margin-top: 30px;
+    margin-top: 20px;
     border: none;
     border-radius: 50px;
     height: 50px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bolder;
     background: #7cc3db;
     color: #187898;
 }
 
+.order {
+    width: 150px;
+    margin-left: calc(50% - 75px);
+    margin-bottom: 20px;
+}

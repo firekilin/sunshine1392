@@ -46,8 +46,8 @@
 }
 
 img.product_introduce_img {
-    margin-top: 50px;
-    width: 100%;
+    margin-top: 30px;
+    width: 75%;
 }
 
 table.product_comment_content {
@@ -122,6 +122,7 @@ table.product_comment_content {
     background: #f46270;
     border: none;
     color: white;
+    font-size: 16px;
 }
 .product_buy_content li {
     margin-top: 10px;
@@ -129,6 +130,7 @@ table.product_comment_content {
 
 .product_buy_content 
  input[type="number"] {
+    margin-left: 10px;
     width: 15%;
 }
 .shop_img {
@@ -152,4 +154,14 @@ table.product_comment_content {
     vertical-align: top;
     height: 150px;
     border: 5px #b1e0ef solid;
+}
+.order {
+    width: 150px;
+    margin-left: calc(50% - 75px);
+    margin-bottom: 20px;
+}
+
+img.product_introduce_img1 {
+    margin-top: 30px;
+    width: 100%;
 }

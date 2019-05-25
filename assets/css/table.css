@@ -14,6 +14,17 @@
 .main_list {
     padding-left: 50px;
     padding-right: 50px;
+    height: 940px;
 }
+.order {
+    width: 150px;
+    margin-left: calc(50% - 75px);
+    margin-bottom: 20px;
+}
+.next {
+    text-align: center;
+    margin-bottom: -20px;
+}
+
 
 /*RWD*/

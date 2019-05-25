@@ -117,3 +117,8 @@ input[type="submit"] {
 .trading_record_page a {
     margin-left: 20px;
 }
+.order {
+    width: 150px;
+    margin-left: calc(50% - 75px);
+    margin-bottom: 20px;
+}
