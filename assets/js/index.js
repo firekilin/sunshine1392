@@ -13,6 +13,10 @@ function slidright(){
 	setTimeout(function(){$('.slidimgs')[back].className="slidimgs left";},500);
 	setTimeout(function(){	$('.slidimgs')[back].className="slidimgs";},1000);
 	setTimeout(function(){	$('.botton_right')[0].setAttribute("onclick", 'slidright()');},1000);
+	for(var i=0;i<$('.slid_dot .dot').length;i++){
+		$('.slid_dot .dot')[i].className="dot";
+	}
+		$('.slid_dot .dot')[slidnum].className="dot get";
 }
 function slidleft(){
 	var back=slidnum;
@@ -22,12 +26,54 @@ function slidleft(){
 		slidnum=($('.slidimgs').length-1);
 	}
 	$('.slidimgs')[slidnum].className="slidimgs left";
+
 	setTimeout(function(){$('.slidimgs')[slidnum].className="slidimgs showing";},500);
 	setTimeout(function(){$('.slidimgs')[back].className="slidimgs right";},500);
+
 	
 	setTimeout(function(){	$('.slidimgs')[back].className="slidimgs";},1000);
 	setTimeout(function(){	$('.botton_left')[0].setAttribute("onclick", 'slidleft()');},1000);
+	for(var i=0;i<$('.slid_dot .dot').length;i++){
+		$('.slid_dot .dot')[i].className="dot";
+	}
+		$('.slid_dot .dot')[slidnum].className="dot get";
 }
+function slid(x){
+
+	slidnum=x;
+	if(slidnum<0){
+		slidnum=($('.slidimgs').length-1);
+	}
+
+		for(var i=0;i<$('.slid_dot .dot').length;i++){
+		$('.slid_dot .dot')[i].className="dot";
+	}
+		$('.slid_dot .dot')[slidnum].className="dot get";
+		for(var i=0;i<$('.slidimgs').length;i++){
+			$('.slidimgs')[i].className="slidimgs";
+		}
+		$('.slidimgs')[slidnum].className="slidimgs showing";
+
+}
+function autoslid(){
+	var back=slidnum;
+	$('.botton_right')[0].removeAttribute("onclick");
+	slidnum++;
+	if(slidnum>=$('.slidimgs').length){
+		slidnum=0;
+	}
+	$('.slidimgs')[slidnum].className="slidimgs right";
+	setTimeout(function(){$('.slidimgs')[slidnum].className="slidimgs showing";},500);
+	setTimeout(function(){$('.slidimgs')[back].className="slidimgs left";},500);
+	setTimeout(function(){	$('.slidimgs')[back].className="slidimgs";},1000);
+	setTimeout(function(){	$('.botton_right')[0].setAttribute("onclick", 'slidright()');},1000);
+	for(var i=0;i<$('.slid_dot .dot').length;i++){
+		$('.slid_dot .dot')[i].className="dot";
+	}
+		$('.slid_dot .dot')[slidnum].className="dot get";
+		setTimeout(autoslid,5000);
+}
+setTimeout(autoslid,5000);
 /*商品換頁*/
 var product_hot_num=0;
 var product_new_num=0;
