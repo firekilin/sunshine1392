@@ -127,6 +127,30 @@ a:active {color:#187898;}
     color: white;
     display: inline-block;
 }
+.search {
+    position: absolute;
+    width: 20%;
+    height: 20px;
+    padding: 5px;
+    bottom: 60px;
+    border: 2px #b1e0ef solid;
+    border-radius: 20px;
+}
+.search .search_img {position: absolute;right: 10px;height: 60%;top: 20%;}
+.search .search_content {
+    width: calc(90% - 20px);
+    height: 20px;
+    font-size: 15px;
+    border: none;
+    background: #ff000000;
+    position: absolute;
+    top: 2.5px;
+    left: 10px;
+    color: #187898;
+}
+
+.search .search_content:focus {outline: none;}
+
 
 /*頁尾*/
 

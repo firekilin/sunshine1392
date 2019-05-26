@@ -8,7 +8,9 @@ $(window).scroll(function() {
 	}
 	if(scroll>=getmenu2)
 	{
-		
+		$('.search').css( {
+    'visibility':'hidden',
+});
 $('.header').css( {
     'position':'fixed',
     'margin': '0px',
@@ -57,6 +59,7 @@ $('.logo_link').css( {
 });
 		
 	}else{
+		
 		$('.main')[0].removeAttribute('style');
 		$('.header')[0].removeAttribute('style');
 		$('.logo')[0].removeAttribute('style');
@@ -64,6 +67,7 @@ $('.logo_link').css( {
 		$('.login_button')[0].removeAttribute('style');
 		$('.shopping_car')[0].removeAttribute('style');
 		$('.logo_link')[0].removeAttribute('style');
+		$('.search')[0].removeAttribute('style');
 	}
 	
 });
