@@ -165,3 +165,8 @@ img.product_introduce_img1 {
     margin-top: 30px;
     width: 100%;
 }
+.color {
+    display:inline-block;
+    height:20px;
+    width:20px;
+}

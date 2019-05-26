@@ -1,3 +1,11 @@
+
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    var metaTag=document.createElement('meta');
+    metaTag.name="viewport";
+    metaTag.content="width='788px', initial-scale=1.0, maximum-scale=1.0, user-scalable=0";
+    document.getElementsByTagName('head')[0].appendChild(metaTag);
+}
 var getmenu=0;
 var getmenu2=0;
 $(window).scroll(function() {

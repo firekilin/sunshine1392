@@ -11,6 +11,7 @@
     <script src="assets/js/jquery-3.4.0.min.js"></script>
     <script src="assets/js/menu.js"></script>
 	<script src="assets/js/table.js"></script>
+	<script defer="defer" src="assets/js/product.js"></script>
 </head>
 
 <body>
@@ -103,7 +104,19 @@
 					<ul>
 						<li>商品編號:</li>
 						<li>商品售價:</li>
-						<li>商品數量:<input name="number" type="number" placeholder="0" />
+						<li>商品數量:<input name="number" type="number" placeholder="0" /></li>
+						<li>商品顏色:
+							
+							<input id="one"   name="color" value="看資料庫內容" type="radio" checked hidden />
+							<label for="one" class="color"  setcolor="#364f5b"></label>
+							
+							<input id="two"  name="color" value="看資料庫內容" type="radio" hidden  />
+							<label for="two" class="color"  setcolor="#364f5b"></label>
+							
+							<input id="three"   name="color" value="看資料庫內容" type="radio" hidden  />
+							<label for="three" class="color"  setcolor="#364f5b"></label>
+													<!--顏色色碼-->
+						</li>
 					</ul>
 					
 						<!--加油~-->
