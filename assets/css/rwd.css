@@ -2,15 +2,27 @@ body {
     margin: 0px;
     font-family: "微軟正黑體";
 }
-input{
-    font-family:"微軟正黑體";
+
+input {
+    font-family: "微軟正黑體";
 }
-a{
+
+a {
     text-decoration: none;
 }
-a:link {color: #187898;}
-a:visited {color:  #187898;}
-a:active {color:#187898;}
+
+a:link {
+    color: #187898;
+}
+
+a:visited {
+    color: #187898;
+}
+
+a:active {
+    color: #187898;
+}
+
 .header {
     position: relative;
     margin-top: 30px;
@@ -26,6 +38,7 @@ a:active {color:#187898;}
     width: auto;
     height: 90px;
 }
+
 .logo_link {
     display: block;
     width: 262px;
@@ -46,6 +59,7 @@ a:active {color:#187898;}
     width: calc(95% / 5);
     height: 100%;
 }
+
 .login_button {
     position: absolute;
     color: white;
@@ -127,6 +141,7 @@ a:active {color:#187898;}
     color: white;
     display: inline-block;
 }
+
 .search {
     position: absolute;
     width: 20%;
@@ -136,7 +151,14 @@ a:active {color:#187898;}
     border: 2px #b1e0ef solid;
     border-radius: 20px;
 }
-.search .search_img {position: absolute;right: 10px;height: 60%;top: 20%;}
+
+.search .search_img {
+    position: absolute;
+    right: 10px;
+    height: 60%;
+    top: 20%;
+}
+
 .search .search_content {
     width: calc(90% - 20px);
     height: 20px;
@@ -149,8 +171,9 @@ a:active {color:#187898;}
     color: #187898;
 }
 
-.search .search_content:focus {outline: none;}
-
+.search .search_content:focus {
+    outline: none;
+}
 
 /*頁尾*/
 
@@ -223,6 +246,7 @@ img.footer_QRcode {
 .findus_link:hover {
     text-decoration: underline;
 }
+
 .copyright {
     text-align: center;
     bottom: 10px;
@@ -311,9 +335,10 @@ img.footer_QRcode {
 .loginform input::-webkit-input-placeholder {
     color: #187898;
 }
-/*註冊頁面*/
-.jogin_window {
 
+/*註冊頁面*/
+
+.jogin_window {
     position: fixed;
     padding-top: 40px;
     width: 720px;
@@ -328,8 +353,9 @@ img.footer_QRcode {
     text-align: center;
     top: calc(50% - 275px);
     transform: rotateY(90deg);
-     transition: all 0.6s ease;
+    transition: all 0.6s ease;
 }
+
 .jogin_close {
     position: absolute;
     right: 0px;
@@ -357,6 +383,7 @@ img.footer_QRcode {
     color: #187898;
     font-family: "微軟正黑體";
 }
+
 .jogin_submit {
     width: 20% !important;
     margin-top: 25px;
@@ -368,9 +395,11 @@ img.footer_QRcode {
     font-size: 30px;
     font-weight: bolder;
 }
+
 .joginform input::-webkit-input-placeholder {
     color: #187898;
 }
+
 /*RWD*/
 
 @media only screen and (min-width: 1200px) {
@@ -385,7 +414,7 @@ img.footer_QRcode {
     }
 }
 
-@media only screen and (min-width: 790px)and (max-width:1200px) {
+@media only screen and (min-width: 789px)and (max-width:1200px) {
     .body {
         position: relative;
         margin-left: 6%;
@@ -397,7 +426,7 @@ img.footer_QRcode {
     }
 }
 
-@media only screen and (max-width: 789px) {
+@media only screen and (max-width: 788px) {
     .body {
         position: relative;
         margin-left: 0%;
@@ -407,87 +436,85 @@ img.footer_QRcode {
         width: 100%;
         height: 100%;
     }
-	.menu {
-    display: none;
+    .main {
+        position: relative;
+        top: 50px;
+    }
+    .menu {
+        display: none;
+    }
+    .header {
+		position:fixed;
+		top:0px;
+		z-index:5;
+        height: 50px;
+        margin-top: 0px;
+        background: #7CC3DB;
+    }
+    .logo_link {
+        height: 50px;
+    }
+    .logo {
+        top: 0px;
+        height: 50px;
+        margin-left: 58.5px;
+    }
+    .logo_link {}
+    .login_button {
+        background: none;
+        border: none;
+        box-shadow: none;
+        height: 30px;
+        width: 30px;
+        right: 30px;
+        top: 10px;
+    }
+    .login_content {
+        display: none;
+    }
+    .shopping_car {
+        height: 30px;
+        top: 10px;
+        right: 60px;
+    }
+    img.hotimg {
+        width: 130px;
+    }
+    .products_button_l {
+        display: none;
+    }
+    .products_button_r {
+        display: none;
+    }
+    .products_box {}
+    .hot {
+        height: auto;
+    }
+    img.newimg {
+        width: 130px;
+    }
+    .one_product {
+        width: calc(89%/2);
+    }
+    .new {
+        height: auto;
+    }
+    a.footer_link {
+        display: none;
+    }
+    .findus {
+        font-size: 1em;
+        line-height: 1em;
+    }
+    img.footer_QRcode {
+        display: none;
+    }
+    a.signup {
+    overflow: hidden;
 }
 
-.header {
-    height: 50px;
-    margin-top: 0px;
-    background: #7CC3DB;
-}
-
-.logo_link {
-    height: 50px;
-}
-
-.logo {
-    top: 0px;
-    height: 50px;
-    margin-left: 58.5px;
-}
-
-.logo_link {}
-
-.login_button {
-    background: none;
-    border: none;
-    box-shadow: none;
-    height: 50px;
-    width: 50px;
-    right: 50px;
-}
-
-.login_content {
-    display: none;
-}
-
-.shopping_car {
-    height: 50px;
-    width: 50px;
-    top: 0px;
-    right: 100px;
-}
-
-img.hotimg {
-    width: 130px;
-}
-
-.products_button_l {
-    display: none;
-}
-
-.products_button_r {
-    display: none;
-}
-
-.products_box {}
-
-.hot {
-    height: auto;
-}
-
-img.newimg {
-    width: 130px;
-}
-
-.one_product {
-    width: calc(89%/2);
-}
-
-.new {
-    height: auto;
-}
-a.footer_link {
-    display: none;
-}
-
-.findus {
-    font-size: 1em;
-    line-height: 1em;
-}
-
-img.footer_QRcode {
-    display: none;
+.jogin_window {
+    width: 100%;
+    left: 0px;
 }
 }
