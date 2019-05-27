@@ -1,6 +1,7 @@
 var sidemenu=0;
 var sidemenu2=0;
 $(window).scroll(function() {
+	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){}else{
 	var scroll=$(window).scrollTop();
 	if(sidemenu==0){
 		sidemenu=1;
@@ -29,5 +30,5 @@ $(window).scroll(function() {
 	else{
 	$('.side_menu')[0].removeAttribute('style');
 	}
-	
+	}
 });

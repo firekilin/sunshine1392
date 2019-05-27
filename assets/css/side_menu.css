@@ -3,7 +3,7 @@
     margin-top: 120px;
     width: 250px;
     border: 3px #b1e0ef solid;
-    z-index: 5;
+    z-index: 4;
   
 }
 
@@ -100,3 +100,10 @@ ul {
 }
 
 /*RWD*/
+@media only screen and (max-width: 788px) {
+	.side_menu {
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+}
+}

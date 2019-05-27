@@ -335,3 +335,10 @@ div[class^="story"] {
 
 	  border:none;
 }
+@media only screen and (max-width: 788px) {
+	iframe.google_map {
+    width: 100%;
+}
+	
+	
+}

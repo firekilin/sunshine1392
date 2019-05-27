@@ -122,3 +122,11 @@ input[type="submit"] {
     margin-left: calc(50% - 75px);
     margin-bottom: 20px;
 }
+@media only screen and (max-width: 788px) {
+.main {
+    margin: 0px;
+    width: 100%;
+}
+
+
+}

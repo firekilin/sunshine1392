@@ -489,6 +489,7 @@ img.footer_QRcode {
     }
     .logo_link {
         height: 50px;
+        width: 0px;
     }
     .logo {
         top: 0px;
@@ -568,4 +569,5 @@ img.footer_QRcode {
     .linkto {
         height: auto;
     }
+	
 }

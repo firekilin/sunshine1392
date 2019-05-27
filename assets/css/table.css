@@ -28,3 +28,21 @@
 
 
 /*RWD*/
+@media only screen and (max-width: 788px) {
+.main {
+    margin: 0px;
+    width: 100%;
+}
+
+.one_product {
+    width: calc((100% - 50px)/2);
+}
+
+.main_list {
+    padding: 0px;
+}
+
+.next {
+    margin-bottom: 20px;
+}
+}
