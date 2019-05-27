@@ -6,7 +6,10 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     metaTag.content="width='788px', initial-scale=1.0, maximum-scale=1.0, user-scalable=0";
     document.getElementsByTagName('head')[0].appendChild(metaTag);
 }
-
+function myFunction(x) {
+  x.classList.toggle("change");
+  $('.menu')[0].classList.toggle("open");
+}
 var getmenu=0;
 var getmenu2=0;
 $(window).scroll(function() {
@@ -83,6 +86,7 @@ $('.logo_link').css( {
 	}
 	
 });
+
 
 /*登入頁面*/
 
