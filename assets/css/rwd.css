@@ -569,5 +569,7 @@ img.footer_QRcode {
     .linkto {
         height: auto;
     }
-	
+	.login_icon {
+    left: 0px;
+}
 }
