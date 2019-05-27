@@ -94,7 +94,7 @@ function loginopen(){
     'width': '100%',
 	'left': '0px',
     'height': '450px',
-    'font-size': '30px',
+    'font-size': '1.5rem',
     'font-weight': 'bolder',
     'color': '#187898',
     'background': '#b1e0ef',
