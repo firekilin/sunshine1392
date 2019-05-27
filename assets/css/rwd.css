@@ -407,4 +407,83 @@ img.footer_QRcode {
         width: 100%;
         height: 100%;
     }
+	.menu {
+    display: none;
+}
+
+.header {
+    height: 50px;
+    margin-top: 0px;
+    background: #7CC3DB;
+}
+
+.logo_link {
+    height: 50px;
+}
+
+.logo {
+    top: 0px;
+    height: 50px;
+    margin-left: 58.5px;
+}
+
+.logo_link {}
+
+.login_button {
+    background: none;
+    border: none;
+    box-shadow: none;
+    height: 50px;
+    width: 50px;
+    right: 50px;
+}
+
+.login_content {
+    display: none;
+}
+
+.shopping_car {
+    height: 50px;
+    width: 50px;
+    top: 0px;
+    right: 100px;
+}
+
+img.hotimg {
+    width: 130px;
+}
+
+.products_button_l {
+    display: none;
+}
+
+.products_button_r {
+    display: none;
+}
+
+.products_box {}
+
+.hot {
+    height: auto;
+}
+
+img.newimg {
+    width: 130px;
+}
+
+.one_product {
+    width: calc(89%/2);
+}
+
+.new {
+    height: auto;
+}
+a.footer_link {
+    display: none;
+}
+
+.findus {
+    font-size: 1em;
+    line-height: 1em;
+}
 }
