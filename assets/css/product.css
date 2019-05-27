@@ -170,3 +170,54 @@ img.product_introduce_img1 {
     height:20px;
     width:20px;
 }
+
+@media only screen and (max-width: 788px) {
+.side_menu_hide {
+    display: none;
+}
+.main {
+    width: 100%;
+    margin: 0px;
+}
+.product_buy_content {
+    float: none;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img.product_buy_img {
+    float: none;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.product_buy {
+    overflow: initial;
+    height: auto;
+    padding: 0px;
+    width: 100%;
+}
+
+td.star {
+    width: 270px;
+}
+
+
+td {
+    padding-right: 10px;
+}
+
+table.product_comment_content {
+    padding: 0;
+}
+
+td {
+    text-align: center;
+}
+
+td.product_comment_get {
+    text-align: left;
+}
+}

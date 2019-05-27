@@ -81,7 +81,7 @@ ul {
 
 .side_menu li:nth-child(2n):hover>.side_menu_link {
     background: #a0e1f2;
-    color: black;
+    color: #134149;
 }
 
 .side_menu li:nth-child(2n-1) .side_menu_link:hover>.side_menu_hide {
@@ -101,9 +101,9 @@ ul {
 
 /*RWD*/
 @media only screen and (max-width: 788px) {
-	.side_menu {
+    .side_menu {
     position: relative;
-    width: 100%;
+    width: calc(100% - 6px);
     margin-top: 60px;
 }
 }

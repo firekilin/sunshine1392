@@ -53,6 +53,15 @@
     margin: 0px;
     width: 100%;
 }
+img {
+    width: 100px;
+    height: auto;
+}
+
+
+.trading_record_list {
+    width: 230px;
+}
 
 
 }

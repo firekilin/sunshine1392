@@ -221,6 +221,7 @@ img.footer_QRcode {
 }
 
 .footer_menu {
+    display:block;
     position: absolute;
     right: 200px;
     width: 20%;
@@ -514,7 +515,7 @@ img.footer_QRcode {
         top: 10px;
         right: 60px;
     }
-    img.hotimg {
+    .hotimg {
         width: 130px;
     }
     .products_button_l {
@@ -527,7 +528,7 @@ img.footer_QRcode {
     .hot {
         height: auto;
     }
-    img.newimg {
+    .newimg {
         width: 130px;
     }
     .one_product {
@@ -536,20 +537,20 @@ img.footer_QRcode {
     .new {
         height: auto;
     }
-    a.footer_link {
+    .footer_link {
         display: none;
     }
     .findus {
         font-size: 1em;
         line-height: 1em;
     }
-    img.footer_QRcode {
+    .footer_QRcode {
         display: none;
     }
-    a.signup {
+    .signup {
         overflow: hidden;
-        width: 50%;
-        margin-left: auto;
+         width: 130px;
+          margin-left: 60%;
     }
     .jogin_window {
         width: 100%;
@@ -564,12 +565,24 @@ img.footer_QRcode {
     .menu li {
         display: block;
         width: 100%;
-        border-bottom: 1px black solid;
+        border-bottom: 1px #9dd5e7 solid;
     }
     .linkto {
         height: auto;
     }
-	.login_icon {
+    .login_icon {
     left: 0px;
 }
+
+.footer {margin-top: 100px;}
+
+.copyright {
+    text-align: left;
+    margin-left: 10px;
+}
+.footer_menu {
+    display: none;
+}
+
+
 }

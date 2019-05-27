@@ -91,7 +91,7 @@
     border: 5px #b1e0ef solid;
 }
 
-input[type="submit"] {
+.product_comment input[type="submit"] {
     background: #f46270;
     height: 30px;
     width: 80px;
@@ -127,6 +127,14 @@ input[type="submit"] {
     margin: 0px;
     width: 100%;
 }
+.product_content {
+    width: 230px;
+}
 
+
+.product_comment {
+    width: 90%;
+    margin-top: 10px;
+}
 
 }

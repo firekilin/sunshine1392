@@ -2,7 +2,14 @@
 .product {
     width: 100%;
 }
+.money {
+    color: #E8434C;
+    text-align: center;
+}
 
+.product_content {
+    text-align: center;
+}
 .one_product {
     display: inline-block;
     margin-left: 10px;
@@ -44,5 +51,8 @@
 
 .next {
     margin-bottom: 20px;
+}
+.side_menu_hide {
+    display: none;
 }
 }
