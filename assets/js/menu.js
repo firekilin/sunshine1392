@@ -6,10 +6,12 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     metaTag.content="width='788px', initial-scale=1.0, maximum-scale=1.0, user-scalable=0";
     document.getElementsByTagName('head')[0].appendChild(metaTag);
 }
+
 var getmenu=0;
 var getmenu2=0;
 $(window).scroll(function() {
-	var scroll=$(window).scrollTop();
+	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){}else{
+		var scroll=$(window).scrollTop();
 	if(getmenu==0){
 		getmenu=1;
 		getmenu2=$('.menu').offset().top;
@@ -78,11 +80,43 @@ $('.logo_link').css( {
 		$('.search')[0].removeAttribute('style');
 	}
 	
+	}
+	
 });
 
 /*登入頁面*/
 
 function loginopen(){
+	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+		$('.login_window').css( {
+    'position': 'fixed',
+    'padding-top': '40px',
+    'width': '100%',
+	'left': '0px',
+    'height': '450px',
+    'font-size': '30px',
+    'font-weight': 'bolder',
+    'color': '#187898',
+    'background': '#b1e0ef',
+    'border-radius': '100px',
+    'right': 'calc(50% - 360px)',
+    'z-index': '6',
+    'text-align': 'center',
+	'overflow': 'visible',
+	'top': 'calc(50% - 225px',
+	'transform': 'rotateY(0deg)',
+});
+	
+if($('.jogin_window')[0].attributes.style!=undefined){
+	$('.jogin_window')[0].removeAttribute('style');
+}
+$('.jogin_window').css( {
+
+    'transform': 'rotateY(90deg)',
+	
+	});
+		
+	}else{
 	$('.login_window').css( {
     'position': 'fixed',
     'padding-top': '40px',
@@ -108,7 +142,8 @@ $('.jogin_window').css( {
 
     'transform': 'rotateY(90deg)',
 	
-});
+	});
+	}
 }
 
 function loginclose(){
