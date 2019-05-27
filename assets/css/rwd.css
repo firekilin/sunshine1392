@@ -510,7 +510,7 @@ img.footer_QRcode {
         display: none;
     }
     a.signup {
-    overflow: hidden;
+    font-size: 1rem;
 }
 
 .jogin_window {
