@@ -486,4 +486,8 @@ a.footer_link {
     font-size: 1em;
     line-height: 1em;
 }
+
+img.footer_QRcode {
+    display: none;
+}
 }
