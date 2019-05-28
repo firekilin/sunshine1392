@@ -174,10 +174,11 @@ a:active {
 .search .search_content:focus {
     outline: none;
 }
-  .container {
-        display: none;
 
-    }
+.container {
+    display: none;
+}
+
 /*頁尾*/
 
 img.top_img {
@@ -221,7 +222,7 @@ img.footer_QRcode {
 }
 
 .footer_menu {
-    display:block;
+    display: block;
     position: absolute;
     right: 200px;
     width: 20%;
@@ -549,8 +550,8 @@ img.footer_QRcode {
     }
     .signup {
         overflow: hidden;
-         width: 130px;
-          margin-left: 60%;
+        width: 130px;
+        margin-left: 60%;
     }
     .jogin_window {
         width: 100%;
@@ -571,18 +572,20 @@ img.footer_QRcode {
         height: auto;
     }
     .login_icon {
-    left: 0px;
+        left: 0px;
+    }
+    .footer {
+        margin-top: 100px;
+    }
+    .copyright {
+        text-align: left;
+        margin-left: 10px;
+    }
+    .footer_menu {
+        width: 8em;
+        right: 0px;
+    }
+    a.footer_link:last-child {
+    display: block;
 }
-
-.footer {margin-top: 100px;}
-
-.copyright {
-    text-align: left;
-    margin-left: 10px;
-}
-.footer_menu {
-    display: none;
-}
-
-
 }

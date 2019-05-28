@@ -1,0 +1,65 @@
+.main {
+    color: #187898;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.Q {
+    width: 100%;
+    background: #b1e0ef;
+    height: auto;
+    line-height: 50px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Q:before {
+    content: "▶"
+}
+
+.Q.change:before {
+    content: "(●'Д'●)"
+}
+
+.A {
+    border-radius: 0px 0px 15px 15px;
+    opacity: 0;
+    line-height: 25px;
+    width: 100%;
+    background: #daf1f7;
+    text-align: center;
+    height: 0px;
+    display: block;
+    transition: all 0.6s ease;
+    pointer-events: none;
+}
+
+table.A {
+    padding-right: 50px;
+    padding-left: 50px;
+    width: auto;
+    line-height: 30px;
+    border-spacing: 0px;
+}
+
+table.A td {
+    border-bottom: 1px #187898 solid;
+    padding-top: 15px;
+    padding-bottom: 15PX;
+}
+
+.Q.change .A {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 788px) {
+    iframe.google_map {
+        width: 100%;
+    }
+}
