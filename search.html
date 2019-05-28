@@ -17,7 +17,7 @@
         <div class="login_close" onclick="loginclose()">X</div>
         <img src="assets/img/umbrella.png" alt="" class="login_bg" /> 會員登入
 		<!--登入表單-->
-        <form class="loginform" action="送出目的地" method="post">
+        <form class="loginform" action="送出目的地" method="get">
             
             <input type="text" placeholder="帳號" required>
             <input type="password" placeholder="密碼" required>
@@ -29,7 +29,7 @@
         <div class="jogin_close" onclick="joginclose()">X</div>
         <img src="assets/img/umbrella.png" alt="" class="login_bg" /> 會員註冊
 		<!--登入表單-->
-        <form class="joginform" action="送出目的地" method="post">
+        <form class="joginform" action="送出目的地" method="get">
             
             <input type="text" placeholder="帳號　　※請輸入至少8位數英字" name="account"  required >
 			<input type="Email" name="account" placeholder="Email"  required />
@@ -45,7 +45,7 @@
         <!--頁首開始-->
         <header class="header">
            <a class="logo_link" href="index.html"><img class="logo" src="assets/img/LOGO.png" alt="天晴雨傘" /></a>
-		   			<form class="search" method="post" action="">
+		   			<form class="search" method="get" action="">
 				<input type="text" class="search_content" /><img alt="" class="search_img" src="assets/img/search.png" />
 			</form>
 			<div class="container" onclick="myFunction(this)">
@@ -77,7 +77,7 @@
         <!--頁首結束-->
 		<div class="main">
             <img src="assets/img/order.png" class="order">
-			<form action="search_complete.html" method="post">
+			<form action="search_complete.html" method="get">
 				<div class="search_main">
 				訂單編號:<input type="text" placeholder="請輸入訂單編號" /><br>
 				訂購人聯絡電話:<input type="text" placeholder="請輸入聯絡電話" />
@@ -103,7 +103,7 @@
             <a class="footer_link" href="index.html">熱門商品</a>
             <a class="footer_link" href="search.html">訂單查詢</a>
             <a class="footer_link" href="table.html">線上購物</a>
-            <a class="footer_link" href="">常見QA</a>
+            <a class="footer_link" href="Question.html">常見QA</a>
         </div>
                 <img alt="" class="footer_QRcode" src="assets/img/umbrella.png" />
 <div class="copyright">Copyright©天晴雨傘專賣Sunshine1392,2019</div>

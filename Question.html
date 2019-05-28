@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html lang="zh-TW">
+
+<head>
+    <title>天晴sunshine</title>
+    <LINK REL="SHORTCUT ICON" HREF="favicon.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/rwd.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/question.css">
+    <script src="assets/js/jquery-3.4.0.min.js"></script>
+    <script src="assets/js/menu.js"></script>
+      <script src="assets/js/question.js"></script>
+</head>
+
+<body>
+    <!--登入頁面開始-->
+    <div class="login_window">
+        <div class="login_close" onclick="loginclose()">X</div>
+        <img src="assets/img/umbrella.png" alt="" class="login_bg" /> 會員登入
+        <!--登入表單-->
+        <form class="loginform" action="送出目的地" method="get">
+
+            <input type="text" placeholder="帳號" required>
+            <input type="password" placeholder="密碼" required>
+            <input class="login_submit" type="submit" value="登入">
+        </form>
+        <a class="signup" onclick="joginopen()">註冊新帳號</a>
+    </div>
+    <div class="jogin_window">
+        <div class="jogin_close" onclick="joginclose()">X</div>
+        <img src="assets/img/umbrella.png" alt="" class="login_bg" /> 會員註冊
+        <!--登入表單-->
+        <form class="joginform" action="送出目的地" method="get">
+
+            <input type="text" placeholder="帳號　　※請輸入至少8位數英字" name="account" required>
+            <input type="Email" name="account" placeholder="Email" required />
+            <input type="password" placeholder="密碼　　※請輸入至少10位數英字" name="account" required />
+            <input type="password" name="account" placeholder="再次確認密碼" required />
+            <input class="jogin_submit" type="submit" value="註冊">
+        </form>
+        <a class="signup" onclick="loginopen()">登入帳號</a>
+
+    </div>
+    <!--登入頁面結束-->
+    <div class="body">
+        <!--頁首開始-->
+        <header class="header">
+            <a class="logo_link" href="index.html"><img class="logo" src="assets/img/LOGO.png" alt="天晴雨傘" /></a>
+            <form class="search" method="get" action="">
+                <input type="text" class="search_content" /><img alt="" class="search_img" src="assets/img/search.png" />
+            </form>
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a class="linkto" href="aboutus.html">About us</a>
+                    </li>
+                    <li><a class="linkto" href="index.html">熱門商品</a>
+                    </li>
+                    <li><a class="linkto" href="table.html">線上購物</a>
+                    </li>
+                    <li><a class="linkto" href="personal.html">會員專區</a>
+                    </li>
+                    <li><a class="linkto" href="search.html">訂單查詢</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="login_button" onclick="loginopen()"><img onclick="loginopen()" class="login_icon" alt="" src="assets/img/member1.png" />
+                <!--這個以JSP換圖片-->
+                <div class="login_content" onclick="loginopen()">會員登入</div>
+            </div>
+            <a href="shopping_car.html"><img class="shopping_car" alt="" src="assets/img/shoppingcart1.png" /></a>
+            <!--這個以JSP換圖片-->
+        </header>
+        <!--頁首結束-->
+
+        <div class="main">
+            <div class="Q" onclick="questions(this)">目前提供哪些運送方式？
+                <div class="A">目前只提供貨運宅配</div>
+            </div>
+
+            <div class="Q" onclick="questions(this)">訂單完成後，大概幾天可以收到商品?
+                <div class="A">
+                    常態性為出貨後 2~3 天。(例假日不出貨，若有急需請及早訂購。)<br>如遇出貨量增加，包裹到達門市時間則以超商實際到貨驗收日為準。
+
+                </div>
+            </div>
+
+            <div class="Q" onclick="questions(this)">運費如何計算？
+                <div class="A">運費計算方式分為「台灣地區」及「海外地區」<br>▷台灣地區運費如下
+
+<table class="A" border="0" >
+                    <tr>
+                        <td>消費金額 1,500 元以上↑</td>
+                        <td>免運費(๑￫ܫ￩)</td>
+                    </tr>
+
+                    <tr>
+                        <td>訂單金額 1,500 元以下↓</td>
+                        <td>臺灣本島地區物流費 60~100 元不等 <br> （超商取貨：60 元，宅配通：100 元，新竹物流：100元）<br> 臺灣離島地區物流費 100 元<br> 此運費辦理退貨時不會退還。
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">※若訂單分批退貨，每多一件包裹酌收物流費100元。 退貨後商品不滿免運門檻，將收取該筆訂單所選物流之費用（例如：新竹貨運 100 元；離島地區則為 100元。），退款時從訂單金額中扣除。
+                        </td>
+                    </tr>
+                </table>
+
+                </div>
+                
+
+            </div>
+            <div class="A">
+                ▷海外地區<br>不需先支付運費，運費以順豐到付方式，貨到您手上時將運費交給順豐宅配人員。依照當天浮動匯率計算。
+
+</div>
+
+   
+
+        <div class="Q" onclick="questions(this)">終身免費送修 <div class="A">收到商品，如果有發生商品相關零件脫落(傘布和傘套破損不在維修保固範圍)，麻煩您與我們客服人員聯絡，我們將提供免費維修服務(點我查詢全省門市資訊)，至鄰近直營門市進行雨傘送修，雨傘王提供妳完善的售後諮詢及服務。
+（欲前往門市送修前請先致電確認時間及相關流程）
+</div></div>
+       
+
+
+
+     </div>
+
+
+
+
+
+    </div>
+    <!--頁尾在此-->
+    <div class="footer">
+        <img alt="" class="footer_img" src="assets/img/umbrella.png" />
+        <div class="findus">
+            <a class="findus_link" href="https://www.facebook.com/profile.php?id=100012898843858;">FB線上客服</a>
+            <br><a class="findus_link" href="https://line.me/ti/p/zuVFhE_f6z">Line線上客服</a>
+            <br><a class="findus_link" href="tel:0978032627">客服電話</a>
+            <br><a class="findus_link" href="mailto:kittylu327@gmail.com">E-mail</a>
+        </div>
+        <div class="footer_menu">
+            <a class="footer_link" href="aboutus.html">About us</a>
+            <a class="footer_link" href="personal.html">會員專區</a>
+            <a class="footer_link" href="index.html">熱門商品</a>
+            <a class="footer_link" href="search.html">訂單查詢</a>
+            <a class="footer_link" href="table.html">線上購物</a>
+            <a class="footer_link" href="Question.html">常見QA</a>
+        </div>
+        <img alt="" class="footer_QRcode" src="assets/img/umbrella.png" />
+        <div class="copyright">Copyright©天晴雨傘專賣Sunshine1392,2019</div>
+    </div>
+    <div class="top" onclick="$('html, body').animate({ scrollTop:0 }, 800)">
+
+        <img class="top_img" onclick="$('body').animate( { scrollTop:0 }, 800)" src="assets/img/arrow.png" alt="" />
+    </div>
+</body>
+
+
+
+</html>
