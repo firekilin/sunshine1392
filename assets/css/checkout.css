@@ -79,3 +79,10 @@ td.personal_content {
 .change{
     font-family: 微軟正黑體;
 }
+
+@media only screen and (max-width: 788px) {
+table.shopping_list {
+    padding: 0px;
+}
+
+}

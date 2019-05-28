@@ -28,3 +28,14 @@
     border-radius: 25px;
     margin-left: 100px;
 }
+@media only screen and (max-width: 788px) {
+
+a.home_link {
+    width: 35%;
+}
+
+a.personal_link {
+    width: 35%;
+    margin-left: 20px;
+}
+}
