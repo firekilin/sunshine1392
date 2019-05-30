@@ -105,14 +105,14 @@ td.car_product_name {
     width: 100px;
 }
 .down {
-    width: 20px;
+    width: 20px !important;
 }
 
 input.number {
-    width: 20px;
+    width: 20px !important;
 }
 
 .up {
-    width: 20px;
+    width: 20px !important;
 }
 }
