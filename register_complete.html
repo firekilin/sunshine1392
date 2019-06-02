@@ -2,11 +2,11 @@
 <html lang="zh-TW">
 
 <head>
-	<title>天晴sunshine</title>
-	<LINK REL="SHORTCUT ICON" HREF="favicon.ico"> 
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>天晴sunshine</title>
+    <LINK REL="SHORTCUT ICON" HREF="favicon.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" type="text/css" href="assets/css/rwd.css">
-	    <link rel="stylesheet" type="text/css" href="assets/css/register_complete.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/register_complete.css">
     <script src="assets/js/jquery-3.4.0.min.js"></script>
     <script src="assets/js/menu.js"></script>
 </head>
@@ -16,43 +16,43 @@
     <div class="login_window">
         <div class="login_close" onclick="loginclose()">X</div>
         <img src="assets/img/umbrella.png" alt="" class="login_bg" /> 會員登入
-		<!--登入表單-->
+        <!--登入表單-->
         <form class="loginform" action="送出目的地" method="get">
-            
+
             <input type="text" placeholder="帳號" required>
             <input type="password" placeholder="密碼" required>
             <input class="login_submit" type="submit" value="登入">
-          </form>
-                <a class="signup" onclick="joginopen()">註冊新帳號</a>
+        </form>
+        <a class="signup" onclick="joginopen()">註冊新帳號</a>
     </div>
-	  <div class="jogin_window">
+    <div class="jogin_window">
         <div class="jogin_close" onclick="joginclose()">X</div>
         <img src="assets/img/umbrella.png" alt="" class="login_bg" /> 會員註冊
-		<!--登入表單-->
+        <!--登入表單-->
         <form class="joginform" action="送出目的地" method="get">
-            
-            <input type="text" placeholder="帳號　　※請輸入至少8位數英字" name="account"  required >
-			<input type="Email" name="account" placeholder="Email"  required />
-			<input type="password" placeholder="密碼　　※請輸入至少10位數英字"name="account"  required />
-			<input type="password" name="account"  placeholder="再次確認密碼" required />
+
+            <input type="text" placeholder="帳號　　※請輸入至少8位數英字" name="account" required>
+            <input type="Email" name="account" placeholder="Email" required />
+            <input type="password" placeholder="密碼　　※請輸入至少10位數英字" name="account" required />
+            <input type="password" name="account" placeholder="再次確認密碼" required />
             <input class="jogin_submit" type="submit" value="註冊">
-          </form>
-		  <a class="signup" onclick="loginopen()">登入帳號</a>
+        </form>
+        <a class="signup" onclick="loginopen()">登入帳號</a>
 
     </div>
     <!--登入頁面結束-->
     <div class="body">
         <!--頁首開始-->
         <header class="header">
-           <a class="logo_link" href="index.html"><img class="logo" src="assets/img/LOGO.png" alt="天晴雨傘" /></a>
-		   			<form class="search" method="get" action="">
-				<input type="text" class="search_content" /><img alt="" class="search_img" src="assets/img/search.png" />
-			</form>
-			<div class="container" onclick="myFunction(this)">
-  <div class="bar1"></div>
-  <div class="bar2"></div>
-  <div class="bar3"></div>
-</div>
+            <a class="logo_link" href="index.html"><img class="logo" src="assets/img/LOGO.png" alt="天晴雨傘" /></a>
+            <form class="search" method="get" action="#">
+                <input type="text" class="search_content" /><img alt="" class="search_img" src="assets/img/search.png" />
+            </form>
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
             <nav class="menu">
                 <ul>
                     <li><a class="linkto" href="aboutus.html">About us</a>
@@ -67,7 +67,7 @@
                     </li>
                 </ul>
             </nav>
-            <div class="login_button" onclick="loginopen()"><img  onclick="loginopen()" class="login_icon" alt="" src="assets/img/member1.png" />
+            <div class="login_button" onclick="loginopen()"><img onclick="loginopen()" class="login_icon" alt="" src="assets/img/member1.png" />
                 <!--這個以JSP換圖片-->
                 <div class="login_content" onclick="loginopen()">會員登入</div>
             </div>
@@ -75,18 +75,18 @@
             <!--這個以JSP換圖片-->
         </header>
         <!--頁首結束-->
-		<div class="main">
-			<div class="complete_content">
-			註冊成功!<br><br>現在將轉入登錄前頁面<br><br><a href="index.html">如果您的瀏覽器沒有自動跳轉,請點擊此鏈接</a>
-			</div>
-		</div>
+        <div class="main">
+            <div class="complete_content">
+                註冊成功!<br><br>現在將轉入登錄前頁面<br><br><a href="index.html">如果您的瀏覽器沒有自動跳轉,請點擊此鏈接</a>
+            </div>
+        </div>
     </div>
     <!--頁尾在此-->
     <div class="footer">
         <img alt="" class="footer_img" src="assets/img/umbrella.png" />
         <div class="findus">
-<a class="findus_link" href="https://www.facebook.com/profile.php?id=100012898843858;">FB線上客服</a>
-<br><a class="findus_link" href="https://line.me/ti/p/zuVFhE_f6z">Line線上客服</a>
+            <a class="findus_link" href="https://www.facebook.com/profile.php?id=100012898843858;">FB線上客服</a>
+            <br><a class="findus_link" href="https://line.me/ti/p/zuVFhE_f6z">Line線上客服</a>
             <br><a class="findus_link" href="tel:0978032627">客服電話</a>
             <br><a class="findus_link" href="mailto:kittylu327@gmail.com">E-mail</a>
         </div>
@@ -98,8 +98,8 @@
             <a class="footer_link" href="table.html">線上購物</a>
             <a class="footer_link" href="Question.html">常見QA</a>
         </div>
-                <img alt="" class="footer_QRcode" src="assets/img/umbrella.png" />
-<div class="copyright">Copyright©天晴雨傘專賣Sunshine1392,2019</div>
+        <img alt="" class="footer_QRcode" src="assets/img/umbrella.png" />
+        <div class="copyright">Copyright©天晴雨傘專賣Sunshine1392,2019</div>
     </div>
     <div class="top" onclick="$('html, body').animate({ scrollTop:0 }, 800)">
 
