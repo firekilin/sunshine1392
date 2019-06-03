@@ -140,6 +140,7 @@ a:active {
     border-bottom: 100px solid #B1E0EF;
     color: white;
     display: inline-block;
+    z-index: 8;
 }
 
 .search {
@@ -197,6 +198,7 @@ img.top_img {
     height: 150px;
     width: 100%;
     margin-top: 50px;
+    z-index: 7;
 }
 
 .footer_img {
@@ -404,7 +406,21 @@ img.footer_QRcode {
 .joginform input::-webkit-input-placeholder {
     color: #187898;
 }
-
+.people {
+    position: fixed;
+    bottom: 16px;
+    left: 6px;
+    background: #b1e0ef;
+    font-size: 14px;
+    font-family: "微軟正黑體";
+    color: #187898;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px;
+    z-index: 6;
+}
 /*RWD*/
 
 @media only screen and (min-width: 1200px) {
