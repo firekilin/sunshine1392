@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html lang="zh-TW">
+
+<head>
+	<title>天晴sunshine</title>
+	<LINK REL="SHORTCUT ICON" HREF="favicon.ico"> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/rwd.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/manager.css">
+    <script src="assets/js/jquery-3.4.0.min.js"></script>
+    <script src="assets/js/menu.js"></script>
+
+</head>
+
+<body>
+       <!--登入頁面開始-->
+    <div class="login_window">
+        <div class="login_close" onclick="loginclose()">X</div>
+        <img src="assets/img/umbrella.png" alt="" class="login_bg" /> 會員登入
+		<!--登入表單-->
+        <form class="loginform" action="送出目的地" method="get">
+            
+            <input type="text" placeholder="帳號" required>
+            <input type="password" placeholder="密碼" required>
+            <input class="login_submit" type="submit" value="登入">
+          </form>
+                <a class="signup" onclick="joginopen()">註冊新帳號</a>
+    </div>
+	  <div class="jogin_window">
+        <div class="jogin_close" onclick="joginclose()">X</div>
+        <img src="assets/img/umbrella.png" alt="" class="login_bg" /> 會員註冊
+		<!--登入表單-->
+        <form class="joginform" action="送出目的地" method="get">
+            
+            <input type="text" placeholder="帳號　　※請輸入至少8位數英字" name="account"  required >
+			<input type="Email" name="account" placeholder="Email"  required />
+			<input type="password" placeholder="密碼　　※請輸入至少10位數英字"name="account"  required />
+			<input type="password" name="account"  placeholder="再次確認密碼" required />
+            <input class="jogin_submit" type="submit" value="註冊">
+          </form>
+		  <a class="signup" onclick="loginopen()">登入帳號</a>
+
+    </div>
+    <!--登入頁面結束-->
+    <div class="body">
+        <!--頁首開始-->
+        <header class="header">
+            <a class="logo_link" href="index.html"><img class="logo" src="assets/img/LOGO.png" alt="天晴雨傘" /></a>
+			<form class="search" method="get" action="">
+				<input type="text" class="search_content" /><img alt="" class="search_img" src="assets/img/search.png" />
+			</form>
+			<div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+            <nav class="menu">
+                <ul>
+                    <li><a class="linkto" href="aboutus.html">About us</a>
+                    </li>
+                    <li><a class="linkto" href="index.html">熱門商品</a>
+                    </li>
+                    <li><a class="linkto" href="table.html">線上購物</a>
+                    </li>
+                    <li><a class="linkto" href="personal.html">會員專區</a>
+                    </li>
+                    <li><a class="linkto" href="search.html">訂單查詢</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="login_button" onclick="loginopen()"><img  onclick="loginopen()" class="login_icon" alt="" src="assets/img/member1.png" />
+                <!--這個以JSP換圖片-->
+                <div class="login_content" onclick="loginopen()">會員登入</div>
+            </div>
+            <a href="shopping_car.html"><img class="shopping_car" alt="" src="assets/img/shoppingcart1.png" /></a>
+            <!--這個以JSP換圖片-->
+        </header>
+        <!--頁首結束-->
+		<!--功能分類-->
+	
+
+		<!--功能分類結束-->
+		<div class="main">
+          
+			<div class="manager_title">
+				新增商品
+			</div>
+            <form >
+			<table class="manager_table">
+
+                <tr>
+                    <td>商品名稱</td><td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>價格<td><input type="text" name="price"></td>
+                </tr><tr>
+                    <td>傘布</td><td><input type="text" name="u_1"></td>
+                </tr><tr>
+                    <td>傘骨</td><td><input type="text" name="u_2"></td>
+                </tr><tr>
+                    <td>長度</td><td><input type="text" name="long"></td>
+                </tr>
+                <tr>
+                    <td>直徑</td><td><input type="text" name="long2"></td>
+                </tr>
+                <tr>
+                    <td>重量</td><td><input type="text" name="weight"></td>
+                </tr>
+                <tr>
+                    <td>商品類型</td><td><input type="text" name="category"></td>
+                </tr>
+                <tr>
+                    <td>圖片名稱</td><td><input type="text" name="pic"></td>
+                </tr>
+                <tr>
+                    <td>顏色</td><td><input type="text" name="color"></td>
+                </tr>
+                <tr>
+                    <td>數量</td><td><input type="text" name="count"></td>
+                </tr>
+            </table>
+                    <input type="submit" value="新增" id="submit" />
+               </form> 
+			
+		</div>
+		
+    </div>
+    <!--頁尾在此-->
+    <div class="footer">
+        <img alt="" class="footer_img" src="assets/img/umbrella.png" />
+        <div class="findus">
+<a class="findus_link" href="https://www.facebook.com/profile.php?id=100012898843858;">FB線上客服</a>
+<br><a class="findus_link" href="https://line.me/ti/p/zuVFhE_f6z">Line線上客服</a>
+            <br><a class="findus_link" href="tel:0978032627">客服電話</a>
+            <br><a class="findus_link" href="mailto:kittylu327@gmail.com">E-mail</a>
+        </div>
+        <div class="footer_menu">
+            <a class="footer_link" href="aboutus.html">About us</a>
+            <a class="footer_link" href="personal.html">會員專區</a>
+            <a class="footer_link" href="index.html">熱門商品</a>
+            <a class="footer_link" href="search.html">訂單查詢</a>
+            <a class="footer_link" href="table.html">線上購物</a>
+            <a class="footer_link" href="Question.html">常見QA</a>
+        </div>
+                <img alt="" class="footer_QRcode" src="assets/img/umbrella.png" />
+<div class="copyright">Copyright©天晴雨傘專賣Sunshine1392,2019</div>
+    </div>
+    <div class="top" onclick="$('html, body').animate({ scrollTop:0 }, 800)">
+
+        <img class="top_img" onclick="$('body').animate( { scrollTop:0 }, 800)" src="assets/img/arrow.png" alt="" />
+    </div>
+</body>
+
+
+
+</html>
