@@ -6,12 +6,16 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     metaTag.content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0";
     document.getElementsByTagName('head')[0].appendChild(metaTag);
 }
+
 function myFunction(x) {
   x.classList.toggle("change");
   $('.menu')[0].classList.toggle("open");
 }
 var getmenu=0;
 var getmenu2=0;
+$(window).ready(function(){
+        $('.body').css({'min-height':(window.innerHeight-230)+"px",});
+    });
 $(window).scroll(function() {
 	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){}else{
 		var scroll=$(window).scrollTop();
@@ -19,6 +23,7 @@ $(window).scroll(function() {
 		getmenu=1;
 		getmenu2=$('.menu').offset().top;
 	}
+
 	if(scroll>=getmenu2)
 	{
 		$('.search').css( {
