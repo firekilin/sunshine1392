@@ -1,0 +1,96 @@
+.manager_title {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
+    border-top: 1px #b1e0ef solid;
+    color: #187898;
+}
+form {
+    text-align: center;
+}
+
+input#submit {
+    display: block;
+    text-decoration: none;
+    width: 16%;
+    height: 50px;
+    margin-left: 42%;
+    margin-top: 35px;
+    font-size: 20px;
+    line-height: 50px;
+    background: #DAF1F7;
+    border-radius: 25px;
+    color: #187898;
+}
+.add_button {
+    margin-left: 5%;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
+}
+.manager_table {
+    width: 90%;
+    border: 2px #ced3db solid;
+    height: 350px;
+    font-size: 20px;
+    margin-left: 5%;
+    color: #187898;
+}
+.manager_table td {
+    text-align: center;
+    padding-right: 20px;
+}
+.manager_account {
+    background: #ebedf0;
+    width: 73%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.manager_table input {
+    border: 2px #ced3db solid;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 70%;
+}
+
+input [type=radio] {}
+
+input[type="radio"] {
+    width: auto;
+}
+
+.enter {
+    width: 18%;
+    margin-left: 40%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    background: #7cc3db;
+    color: #187898;
+}
+
+.order {
+    width: 150px;
+    margin-left: calc(50% - 75px);
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 788px) {
+.main {
+    margin: 0px;
+    width: 100%;
+}
+input.enter {
+    font-size: 20px;
+    width: 100px;
+    margin-left: calc(50% - 50px );
+}
+
+}
