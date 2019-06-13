@@ -266,6 +266,7 @@ div[class^="story"] {
     position: relative;
     height: 250px;
     padding: 20px 50px 20px 50px;
+	margin-top:20px;
 }
 .group_one .group_img {
     width: 20%;
@@ -277,13 +278,14 @@ div[class^="story"] {
 .group_one .group_content {
     position: absolute;
     margin-left: 20px;
-    top: calc(10% + 20px);
+    top: 0px;
     left: calc(20% + 50px);
-    text-align: center;
+    text-align: left;
     width: calc(80% - 122px);
     height: calc(80% - 42px);
     border-radius: 20px;
     border: 1px #b1e0ef solid;
+    padding: 20px;
 }
 .group_img img {
     width: 100%;
@@ -295,6 +297,7 @@ div[class^="story"] {
      position: relative;
     height: 250px;
     padding: 20px 50px 20px 50px;
+		margin-top:20px;
 }
 .group_two .group_img {
     width: 20%;
@@ -314,13 +317,14 @@ div[class^="story"] {
 .group_two .group_content {
     position: absolute;
     margin-right: 20px;
-    top: calc(10% + 20px);
+    top: 0px;
     left: 50px;
-    text-align: center;
-    width: calc(80% - 122px);
-    height: calc(80% - 42px);
+    text-align: left;
+    width: calc(80% - 162px);
+    height: calc(80% - 2px);
     border-radius: 20px;
     border: 1px #b1e0ef solid;
+	    padding: 20px;
 }
 .map {
     padding-top: 30px;
