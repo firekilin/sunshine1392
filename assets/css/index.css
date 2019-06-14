@@ -1,5 +1,5 @@
 
-/*輪轉圖*/
+/*è¼ªè½‰åœ–*/
 
 .slid_img {
     position: relative;
@@ -50,13 +50,13 @@
     transition: all 0.6s ease;
 }
 .dot::before{
-    content:"○";
+    content:"â—‹";
     color:white;
     font-size:20px;
     font-weight:bolder;
 }
 .dot.get::before{
-    content:"●";
+    content:"â—";
     color:white;
     font-size:20px;
     font-weight:bolder;
@@ -75,7 +75,7 @@
     text-align: center;
     margin-top: -20px;
 }
-/*按鈕*/
+/*æŒ‰éˆ•*/
 
 .botton {
     position: absolute;
@@ -105,7 +105,7 @@
     cursor: pointer;
 }
 
-/*主商品*/
+/*ä¸»å•†å“*/
 
 .main_hot {
     margin-top: 80px;
@@ -150,12 +150,16 @@
     display: inline-block;
     margin-left: 1.5%;
     transition: all 0.6s ease;
-    top:0px
+    vertical-align: text-top;
+    top:0px;
 }
 
 .product {
     display: block;
     width: 100%;
+    max-height: 150px;
+    height: auto;
+    min-height: 100px;
 }
 
 .products_button_l {
