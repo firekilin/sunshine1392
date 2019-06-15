@@ -170,7 +170,12 @@ img.product_introduce_img1 {
     height:20px;
     width:20px;
 }
+p {
+    font-size: 10px;
+    color: #187898;
+}
 
+hr {border: none;}
 @media only screen and (max-width: 788px) {
 .side_menu_hide {
     display: none;
