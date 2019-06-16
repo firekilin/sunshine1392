@@ -4,7 +4,9 @@
     max-width: 320px;
     position: relative;
 }
-
+table tr:first-child td:first-child {
+    width: 100px;
+}
 
 .product_buy_content {
     width: calc(50% - 6px);
@@ -51,10 +53,16 @@ img.product_introduce_img {
 }
 
 table.product_comment_content {
-    width: 100%;
-    padding-left: 15%;
-    padding-right: 15%;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 3px #b2e0ef;
+    border-style: double;
 }
 
 
@@ -152,8 +160,10 @@ table.product_comment_content {
 }
 .product_comment_get {
     vertical-align: top;
-    height: 150px;
-    border: 5px #b1e0ef solid;
+    height: 30px;
+    padding: 10px 18px 0px 10px;
+    display: block;
+    overflow: overlay;
 }
 .order {
     width: 150px;

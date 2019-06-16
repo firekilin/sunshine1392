@@ -158,10 +158,9 @@
 .product {
     display: block;
     width: 100%;
-    max-height: calc(100% - 110px);
+    max-height: 55%;
     min-height: 100px;
     height: auto;
-
 }
 
 .products_button_l {
@@ -218,13 +217,13 @@
 
 .hot {
     position: relative;
-    height: 240px;
+    height: 280px;
     overflow: hidden;
 }
 
 .new {
     position: relative;
-    height: 240px;
+    height: 280px;
     overflow: hidden;
 }
 
@@ -236,6 +235,12 @@
 .money {
     color: #f46270;
     margin-top: 10px;
+}
+img.hot_n {
+    height: 20px;
+}
+img.new_n {
+    height: 20px;
 }
 /*RWD*/
 
